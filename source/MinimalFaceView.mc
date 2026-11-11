@@ -15,10 +15,14 @@ class MinimalFaceView extends WatchUi.WatchFace {
 
     private var _sleeping as Boolean = false;
 
-    private const TRACK = 0x1C1C1E;
+    // private const TRACK = 0x1C1C1E;
     private const GRAY = 0x9A9AA2;
     private const OFF = 0x55555B;
-    private const NEON = 0x2BD9FF;
+    // private const NEON = 0x2BD9FF;
+    private const LIGHT_GRAY = 0xECF0F1;
+    private var _gs as Float = 1.0;
+;
+
 
     function initialize() {
         WatchFace.initialize();
@@ -37,6 +41,7 @@ class MinimalFaceView extends WatchUi.WatchFace {
     function onUpdate(dc as Dc) as Void {
         var w = dc.getWidth();
         var h = dc.getHeight();
+        _gs = w / 454.0;
 
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
         dc.clear();
@@ -112,7 +117,7 @@ class MinimalFaceView extends WatchUi.WatchFace {
     }
 
     private function textFont(dc as Dc, txt as String, size as Number, maxW as Number) {
-        return pickFont(dc, txt, prop("TextFont", 1), size, maxW, 10, Graphics.FONT_XTINY);
+        return pickFont(dc, txt, prop("TextFont", 1), size, maxW, 8, Graphics.FONT_XTINY);
     }
 
     private function timeFont(dc as Dc, txt as String, h as Number, maxW as Number) {
@@ -158,15 +163,16 @@ class MinimalFaceView extends WatchUi.WatchFace {
         var font = timeFont(dc, txt, h, (w * 0.67).toNumber());
         var just = Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER;
 
-        dc.setColor(GRAY, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(x, y, font, txt, just);
-        // if (_sleeping) {
-        //     dc.setColor(GRAY, Graphics.COLOR_TRANSPARENT);
-        //     dc.drawText(x, y, font, txt, just);
-        // } 
-        // else {
-        //     glowText(dc, x, y, font, txt, just, Graphics.COLOR_WHITE, NEON);
-        // }
+        if (_sleeping) {
+            dc.setColor(GRAY, Graphics.COLOR_TRANSPARENT);
+            dc.drawText(x, y, font, txt, just);
+        } 
+        else {
+            dc.setColor(LIGHT_GRAY, Graphics.COLOR_TRANSPARENT);
+            dc.drawText(x, y, font, txt, just);
+            
+            // glowText(dc, x, y, font, txt, just, Graphics.COLOR_WHITE, NEON);
+        }
     }
 
     // =====================================================
@@ -180,10 +186,16 @@ class MinimalFaceView extends WatchUi.WatchFace {
         return (r << 16) | (g << 8) | b;
     }
 
+    // glow width in px depending on screen size (min 1)
+    private function gpx(v as Numeric) as Number {
+        var r = (v * _gs).toNumber();
+        return (r < 1) ? 1 : r;
+    }
+
     // private function glowText(dc as Dc, x as Number, y as Number, font, txt as String,
     //                           just as Number, core as Number, glow as Number) as Void {
     //     var offs = [[-1, 0], [1, 0], [0, -1], [0, 1], [-1, -1], [1, -1], [-1, 1], [1, 1]];
-    //     var rad = [6, 3];
+    //     var rad = [gpx(6), gpx(3)];
     //     var f = [0.12, 0.28];
     //     for (var a = 0; a < 2; a++) {
     //         dc.setColor(dim(glow, f[a]), Graphics.COLOR_TRANSPARENT);
@@ -212,7 +224,7 @@ class MinimalFaceView extends WatchUi.WatchFace {
         if (p <= 0.0) {
             return;
         }
-        var widths = [pw + 10, pw + 6, pw + 3];
+        var widths = [pw + gpx(10), pw + gpx(6), pw + gpx(3)];
         var f = [0.10, 0.20, 0.38];
         for (var i = 0; i < 3; i++) {
             dc.setPenWidth(widths[i]);
@@ -237,7 +249,7 @@ class MinimalFaceView extends WatchUi.WatchFace {
     }
 
     // =====================================================
-    //  Battery ring (no percentage text)
+    //  Battery ring
     // =====================================================
 
     private function batteryColor(pct as Float) as Number {
@@ -256,11 +268,17 @@ class MinimalFaceView extends WatchUi.WatchFace {
     // =====================================================
 
     // [x, y, r] of ring i (0 = top ... 3 = bottom)
-    private function ringGeom(w as Number, h as Number, i as Number) as Array {
+
+        private function ringGeom(w as Number, h as Number, i as Number) as Array {
         var rc = w * 0.355;                 // radius of the arc the ring centres lie on
-        var rOut = w * 0.087;
-        var rIn = w * 0.065;
-        var gap = w * 0.04;
+        var rOut = w * 0.1;
+        var rIn = w * 0.08;
+        var gap = w * 0.03;
+        if (w <= 300) {                     // small screens (fenix 7 etc): 4 same rings
+            rOut = w * 0.09;
+            rIn = rOut;
+            gap = w * 0.022;
+        }
         var phi1 = Math.asin((2 * rIn + gap) / (2 * rc));
         var phi2 = phi1 + 2 * Math.asin((rIn + rOut + gap) / (2 * rc));
         var angs = [-phi2, -phi1, phi1, phi2];
@@ -316,18 +334,19 @@ class MinimalFaceView extends WatchUi.WatchFace {
 
         neonRing(dc, x, y, r, prog, col, pw);
 
-        drawIcon(dc, (id == 11) ? 14 : id, x, y - (r * 0.36).toNumber(), (r * 0.27).toNumber(), col);
+        var s = (r * 0.25).toNumber();
+        if (s < 3) { s = 3; }
+        drawIcon(dc, (id == 11) ? 14 : id, x, y - (r * 0.33).toNumber(), s, col);
 
-        var f = textFont(dc, txt, (r * 0.58).toNumber(), (r * 1.3).toNumber());
+        var f = textFont(dc, txt, (r * 0.56).toNumber(), (r * 1.3).toNumber());
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(x, y + (r * 0.34).toNumber(), f, txt,
+        dc.drawText(x, y + (r * 0.31).toNumber(), f, txt,
             Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
     }
 
     // [progress 0..1, text, colour]
     private function getMetric(id as Number) as Array {
         var info = ActivityMonitor.getInfo();
-
         if (id == 0) {                                   // Steps
             return [ratio(info.steps, info.stepGoal), compact(info.steps), 0x39FF8A];
         } else if (id == 1) {                            // Heart rate
@@ -340,7 +359,8 @@ class MinimalFaceView extends WatchUi.WatchFace {
             return [ratio(info.calories, 2500), compact(info.calories), 0xFF8A00];
         } else if (id == 3) {                            // Floors
             if ((info has :floorsClimbed) && info.floorsClimbed != null) {
-                return [ratio(info.floorsClimbed, info.floorsClimbedGoal), info.floorsClimbed.toString(), 0x2D9BFF];
+                var goal = (info has :floorsClimbedGoal) ? info.floorsClimbedGoal : 10;
+                return [ratio(info.floorsClimbed, goal), info.floorsClimbed.toString(), 0x2D9BFF];
             }
             return [0.0, "--", 0x2D9BFF];
         } else if (id == 4) {                            // Distance, km
@@ -562,7 +582,7 @@ class MinimalFaceView extends WatchUi.WatchFace {
             py[i] = y0 + ht - (fr * ht).toNumber();
         }
 
-        var widths = [7, 4];
+        var widths = [gpx(7), gpx(4)];
         var fs = [0.12, 0.30];
         for (var g = 0; g < 2; g++) {
             dc.setPenWidth(widths[g]);
@@ -718,6 +738,44 @@ class MinimalFaceView extends WatchUi.WatchFace {
         dc.fillPolygon(pts);
     }
 
+    // Fills a closed shape built from cubic Bezier segments.
+    // p = [startX, startY, c1x, c1y, c2x, c2y, endX, endY, ...] in icon units.
+    private function bezShape(dc as Dc, x as Number, y as Number, k as Float, p as Array) as Void {
+        var px = (p[0] as Numeric).toFloat();
+        var py = (p[1] as Numeric).toFloat();
+        var pts = [[u(x, px, k), u(y, py, k)]];
+
+        for (var i = 2; i + 5 < p.size(); i += 6) {
+            var x1 = (p[i] as Numeric).toFloat();
+            var y1 = (p[i + 1] as Numeric).toFloat();
+            var x2 = (p[i + 2] as Numeric).toFloat();
+            var y2 = (p[i + 3] as Numeric).toFloat();
+            var x3 = (p[i + 4] as Numeric).toFloat();
+            var y3 = (p[i + 5] as Numeric).toFloat();
+            for (var j = 1; j <= 10; j++) {
+                var t = j / 10.0;
+                var m = 1.0 - t;
+                var bx = m * m * m * px + 3 * m * m * t * x1 + 3 * m * t * t * x2 + t * t * t * x3;
+                var by = m * m * m * py + 3 * m * m * t * y1 + 3 * m * t * t * y2 + t * t * t * y3;
+                pts.add([u(x, bx, k), u(y, by, k)]);
+            }
+            px = x3;
+            py = y3;
+        }
+        dc.fillPolygon(pts);
+    }
+
+    // Mix a colour towards white by fraction f (0..1).
+    private function lighten(c as Number, f as Float) as Number {
+        var r = (c >> 16) & 0xFF;
+        var g = (c >> 8) & 0xFF;
+        var b = c & 0xFF;
+        r = (r + (255 - r) * f).toNumber();
+        g = (g + (255 - g) * f).toNumber();
+        b = (b + (255 - b) * f).toNumber();
+        return (r << 16) | (g << 8) | b;
+    }
+
     // ids: 0 steps, 1 heart, 2 flame, 3 stairs, 4 pin, 5 stopwatch, 6 bolt, 7 thermometer,
     //      10 envelope, 11 bluetooth, 12 sunrise, 13 sunset, 14 battery
     private function drawIcon(dc as Dc, id as Number, x as Number, y as Number, s as Number, col as Number) as Void {
@@ -735,9 +793,21 @@ class MinimalFaceView extends WatchUi.WatchFace {
         } else if (id == 1) {                            // heart
             dc.fillCircle(u(x, -4, k), u(y, -3, k), sz(4.5, k));
             dc.fillCircle(u(x, 4, k), u(y, -3, k), sz(4.5, k));
-            poly(dc, x, y, k, [-8.2, -1.5, 8.2, -1.5, 0, 9.5]);
-        } else if (id == 2) {                            // flame
-            poly(dc, x, y, k, [0, -10, 4, -3, 7, 3, 4, 9, 0, 10, -4, 9, -7, 3, -4, -1, -2, -5]);
+            poly(dc, x, y, k, [-8.2, -0.5, 8.2, 1, 1, 9.5]);
+        } else if (id == 2) {                            // flame: smooth outline + lighter inner core
+            bezShape(dc, x, y, k, [1, -10,
+                3.2, -7.2, 7.4, -4.6, 7.6, 0.8,
+                7.9, 6, 4.6, 10, 0, 10,
+                -4.6, 10, -8, 6.6, -7.6, 1.6,
+                -7.4, -1.2, -6.2, -3.4, -4.6, -5.4,
+                -4.2, -3.6, -3.4, -2.8, -2.8, -1.8,
+                -2.4, -5.2, 0.4, -6.6, 1, -10]);
+            dc.setColor(lighten(col, 0.5), Graphics.COLOR_TRANSPARENT);
+            bezShape(dc, x, y, k, [0.2, -1.4,
+                2.2, 0.6, 4.2, 2.6, 3.8, 5.2,
+                3.4, 7.6, 1.8, 8.4, 0, 8.4,
+                -1.9, 8.4, -3.8, 7.1, -3.8, 4.8,
+                -3.8, 2.6, -1.2, 1.6, 0.2, -1.4]);
         } else if (id == 3) {                            // stairs
             ln(dc, x, y, k, -9, 8, -3, 8);
             ln(dc, x, y, k, -3, 8, -3, 2);
@@ -764,11 +834,11 @@ class MinimalFaceView extends WatchUi.WatchFace {
             ln(dc, x, y, k, -8, -5, 0, 2);
             ln(dc, x, y, k, 0, 2, 8, -5);
         } else if (id == 11) {                           // bluetooth
-            ln(dc, x, y, k, -3, -4, 3, 2);
-            ln(dc, x, y, k, 3, 2, 0, 5);
-            ln(dc, x, y, k, 0, 5, 0, -5);
-            ln(dc, x, y, k, 0, -5, 3, -2);
-            ln(dc, x, y, k, 3, -2, -3, 4);
+            ln(dc, x, y, k, -3.5, -6.5, 3.5, 3);
+            ln(dc, x, y, k, 4.5, 3, 0, 8);
+            ln(dc, x, y, k, 0, 8, 0, -8);
+            ln(dc, x, y, k, 0, -8, 4.5, -3);
+            ln(dc, x, y, k, 3.5, -3, -3.5, 6.5);
         } else if (id == 12 || id == 13) {               // sunrise / sunset
             dc.drawArc(x, u(y, 5, k), sz(6, k), Graphics.ARC_COUNTER_CLOCKWISE, 0, 180);
             ln(dc, x, y, k, -9, 5, 9, 5);
