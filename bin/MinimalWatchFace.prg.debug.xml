@@ -1,0 +1,1324 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="C:\nyda\MinimalWatchFace\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="c:\\nyda\\MinimalWatchFace\\bin\\gen\\006-B4625-00\\source\\Rez.mcgen" id="1" lineNum="7" parent="globals/Rez" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceApp.mc" id="2" lineNum="5" parent="globals/MinimalFaceApp" pc="268435480" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="3" lineNum="14" parent="globals/MinimalFaceView" pc="268435492" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceApp.mc" id="4" lineNum="15" parent="globals/MinimalFaceApp" pc="268435504" symbol="onSettingsChanged"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceApp.mc" id="4" lineNum="16" parent="globals/MinimalFaceApp" pc="268435506" symbol="onSettingsChanged"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceApp.mc" id="5" lineNum="11" parent="globals/MinimalFaceApp" pc="268435518" symbol="getInitialView"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceApp.mc" id="5" lineNum="12" parent="globals/MinimalFaceApp" pc="268435520" symbol="getInitialView"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceApp.mc" id="6" lineNum="7" parent="globals/MinimalFaceApp" pc="268435546" symbol="initialize"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceApp.mc" id="6" lineNum="8" parent="globals/MinimalFaceApp" pc="268435548" symbol="initialize"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="7" lineNum="583" parent="globals/MinimalFaceView" pc="268435561" symbol="&lt;globals/MinimalFaceView/&lt;&gt;fmtHM&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="7" lineNum="584" parent="globals/MinimalFaceView" pc="268435563" symbol="&lt;globals/MinimalFaceView/&lt;&gt;fmtHM&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="7" lineNum="585" parent="globals/MinimalFaceView" pc="268435582" symbol="&lt;globals/MinimalFaceView/&lt;&gt;fmtHM&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="7" lineNum="586" parent="globals/MinimalFaceView" pc="268435589" symbol="&lt;globals/MinimalFaceView/&lt;&gt;fmtHM&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="7" lineNum="587" parent="globals/MinimalFaceView" pc="268435596" symbol="&lt;globals/MinimalFaceView/&lt;&gt;fmtHM&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="7" lineNum="590" parent="globals/MinimalFaceView" pc="268435606" symbol="&lt;globals/MinimalFaceView/&lt;&gt;fmtHM&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="8" lineNum="708" parent="globals/MinimalFaceView" pc="268435642" symbol="&lt;globals/MinimalFaceView/&lt;&gt;ln&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="8" lineNum="710" parent="globals/MinimalFaceView" pc="268435644" symbol="&lt;globals/MinimalFaceView/&lt;&gt;ln&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="9" lineNum="649" parent="globals/MinimalFaceView" pc="268435711" symbol="&lt;globals/MinimalFaceView/&lt;&gt;compact&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="9" lineNum="650" parent="globals/MinimalFaceView" pc="268435713" symbol="&lt;globals/MinimalFaceView/&lt;&gt;compact&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="9" lineNum="651" parent="globals/MinimalFaceView" pc="268435719" symbol="&lt;globals/MinimalFaceView/&lt;&gt;compact&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="9" lineNum="653" parent="globals/MinimalFaceView" pc="268435728" symbol="&lt;globals/MinimalFaceView/&lt;&gt;compact&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="9" lineNum="654" parent="globals/MinimalFaceView" pc="268435737" symbol="&lt;globals/MinimalFaceView/&lt;&gt;compact&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="9" lineNum="656" parent="globals/MinimalFaceView" pc="268435768" symbol="&lt;globals/MinimalFaceView/&lt;&gt;compact&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="10" lineNum="148" parent="globals/MinimalFaceView" pc="268435782" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="10" lineNum="149" parent="globals/MinimalFaceView" pc="268435785" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="10" lineNum="150" parent="globals/MinimalFaceView" pc="268435797" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="10" lineNum="151" parent="globals/MinimalFaceView" pc="268435805" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="10" lineNum="152" parent="globals/MinimalFaceView" pc="268435824" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="10" lineNum="153" parent="globals/MinimalFaceView" pc="268435831" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="10" lineNum="154" parent="globals/MinimalFaceView" pc="268435838" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="10" lineNum="157" parent="globals/MinimalFaceView" pc="268435848" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="10" lineNum="158" parent="globals/MinimalFaceView" pc="268435910" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="10" lineNum="159" parent="globals/MinimalFaceView" pc="268435940" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="10" lineNum="161" parent="globals/MinimalFaceView" pc="268435944" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="10" lineNum="162" parent="globals/MinimalFaceView" pc="268435961" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="11" lineNum="176" parent="globals/MinimalFaceView" pc="268435982" symbol="&lt;globals/MinimalFaceView/&lt;&gt;dim&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="11" lineNum="177" parent="globals/MinimalFaceView" pc="268435985" symbol="&lt;globals/MinimalFaceView/&lt;&gt;dim&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="11" lineNum="178" parent="globals/MinimalFaceView" pc="268436005" symbol="&lt;globals/MinimalFaceView/&lt;&gt;dim&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="11" lineNum="179" parent="globals/MinimalFaceView" pc="268436025" symbol="&lt;globals/MinimalFaceView/&lt;&gt;dim&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="11" lineNum="180" parent="globals/MinimalFaceView" pc="268436042" symbol="&lt;globals/MinimalFaceView/&lt;&gt;dim&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="12" lineNum="672" parent="globals/MinimalFaceView" pc="268436057" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getBodyBattery&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="12" lineNum="673" parent="globals/MinimalFaceView" pc="268436060" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getBodyBattery&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="12" lineNum="674" parent="globals/MinimalFaceView" pc="268436090" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getBodyBattery&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="12" lineNum="675" parent="globals/MinimalFaceView" pc="268436117" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getBodyBattery&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="12" lineNum="676" parent="globals/MinimalFaceView" pc="268436123" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getBodyBattery&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="12" lineNum="677" parent="globals/MinimalFaceView" pc="268436133" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getBodyBattery&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="12" lineNum="678" parent="globals/MinimalFaceView" pc="268436150" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getBodyBattery&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="12" lineNum="682" parent="globals/MinimalFaceView" pc="268436173" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getBodyBattery&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="13" lineNum="198" parent="globals/MinimalFaceView" pc="268436175" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawProgressArc&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="13" lineNum="199" parent="globals/MinimalFaceView" pc="268436178" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawProgressArc&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="13" lineNum="200" parent="globals/MinimalFaceView" pc="268436185" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawProgressArc&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="13" lineNum="202" parent="globals/MinimalFaceView" pc="268436189" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawProgressArc&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="13" lineNum="203" parent="globals/MinimalFaceView" pc="268436200" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawProgressArc&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="13" lineNum="204" parent="globals/MinimalFaceView" pc="268436216" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawProgressArc&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="13" lineNum="206" parent="globals/MinimalFaceView" pc="268436220" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawProgressArc&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="13" lineNum="207" parent="globals/MinimalFaceView" pc="268436251" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawProgressArc&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="14" lineNum="812" parent="globals/MinimalFaceView" pc="268436274" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawWeatherIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="14" lineNum="813" parent="globals/MinimalFaceView" pc="268436277" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawWeatherIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="14" lineNum="814" parent="globals/MinimalFaceView" pc="268436287" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawWeatherIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="14" lineNum="815" parent="globals/MinimalFaceView" pc="268436294" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawWeatherIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="14" lineNum="817" parent="globals/MinimalFaceView" pc="268436319" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawWeatherIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="14" lineNum="818" parent="globals/MinimalFaceView" pc="268436326" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawWeatherIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="14" lineNum="819" parent="globals/MinimalFaceView" pc="268436346" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawWeatherIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="14" lineNum="820" parent="globals/MinimalFaceView" pc="268436354" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawWeatherIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="14" lineNum="821" parent="globals/MinimalFaceView" pc="268436401" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawWeatherIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="14" lineNum="822" parent="globals/MinimalFaceView" pc="268436453" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawWeatherIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="14" lineNum="823" parent="globals/MinimalFaceView" pc="268436461" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawWeatherIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="14" lineNum="824" parent="globals/MinimalFaceView" pc="268436483" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawWeatherIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="14" lineNum="825" parent="globals/MinimalFaceView" pc="268436491" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawWeatherIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="14" lineNum="826" parent="globals/MinimalFaceView" pc="268436522" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawWeatherIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="14" lineNum="827" parent="globals/MinimalFaceView" pc="268436538" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawWeatherIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="14" lineNum="828" parent="globals/MinimalFaceView" pc="268436566" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawWeatherIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="14" lineNum="829" parent="globals/MinimalFaceView" pc="268436594" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawWeatherIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="14" lineNum="830" parent="globals/MinimalFaceView" pc="268436625" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawWeatherIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="14" lineNum="831" parent="globals/MinimalFaceView" pc="268436633" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawWeatherIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="14" lineNum="832" parent="globals/MinimalFaceView" pc="268436664" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawWeatherIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="14" lineNum="833" parent="globals/MinimalFaceView" pc="268436681" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawWeatherIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="14" lineNum="834" parent="globals/MinimalFaceView" pc="268436734" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawWeatherIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="14" lineNum="835" parent="globals/MinimalFaceView" pc="268436787" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawWeatherIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="14" lineNum="836" parent="globals/MinimalFaceView" pc="268436843" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawWeatherIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="14" lineNum="837" parent="globals/MinimalFaceView" pc="268436851" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawWeatherIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="14" lineNum="838" parent="globals/MinimalFaceView" pc="268436885" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawWeatherIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="14" lineNum="839" parent="globals/MinimalFaceView" pc="268436902" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawWeatherIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="14" lineNum="841" parent="globals/MinimalFaceView" pc="268436927" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawWeatherIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="14" lineNum="842" parent="globals/MinimalFaceView" pc="268436941" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawWeatherIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="14" lineNum="843" parent="globals/MinimalFaceView" pc="268436966" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawWeatherIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="14" lineNum="844" parent="globals/MinimalFaceView" pc="268436989" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawWeatherIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="14" lineNum="846" parent="globals/MinimalFaceView" pc="268437014" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawWeatherIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="15" lineNum="229" parent="globals/MinimalFaceView" pc="268437027" symbol="&lt;globals/MinimalFaceView/&lt;&gt;neonRing&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="15" lineNum="231" parent="globals/MinimalFaceView" pc="268437030" symbol="&lt;globals/MinimalFaceView/&lt;&gt;neonRing&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="15" lineNum="232" parent="globals/MinimalFaceView" pc="268437046" symbol="&lt;globals/MinimalFaceView/&lt;&gt;neonRing&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="15" lineNum="232" parent="globals/MinimalFaceView" pc="268437054" symbol="&lt;globals/MinimalFaceView/&lt;&gt;neonRing&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="15" lineNum="233" parent="globals/MinimalFaceView" pc="268437061" symbol="&lt;globals/MinimalFaceView/&lt;&gt;neonRing&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="15" lineNum="234" parent="globals/MinimalFaceView" pc="268437073" symbol="&lt;globals/MinimalFaceView/&lt;&gt;neonRing&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="15" lineNum="235" parent="globals/MinimalFaceView" pc="268437100" symbol="&lt;globals/MinimalFaceView/&lt;&gt;neonRing&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="15" lineNum="236" parent="globals/MinimalFaceView" pc="268437116" symbol="&lt;globals/MinimalFaceView/&lt;&gt;neonRing&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="16" lineNum="118" parent="globals/MinimalFaceView" pc="268437140" symbol="&lt;globals/MinimalFaceView/&lt;&gt;timeFont&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="16" lineNum="119" parent="globals/MinimalFaceView" pc="268437143" symbol="&lt;globals/MinimalFaceView/&lt;&gt;timeFont&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="16" lineNum="120" parent="globals/MinimalFaceView" pc="268437160" symbol="&lt;globals/MinimalFaceView/&lt;&gt;timeFont&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="16" lineNum="121" parent="globals/MinimalFaceView" pc="268437167" symbol="&lt;globals/MinimalFaceView/&lt;&gt;timeFont&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="16" lineNum="122" parent="globals/MinimalFaceView" pc="268437202" symbol="&lt;globals/MinimalFaceView/&lt;&gt;timeFont&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="16" lineNum="123" parent="globals/MinimalFaceView" pc="268437208" symbol="&lt;globals/MinimalFaceView/&lt;&gt;timeFont&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="16" lineNum="126" parent="globals/MinimalFaceView" pc="268437217" symbol="&lt;globals/MinimalFaceView/&lt;&gt;timeFont&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="16" lineNum="128" parent="globals/MinimalFaceView" pc="268437224" symbol="&lt;globals/MinimalFaceView/&lt;&gt;timeFont&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="16" lineNum="129" parent="globals/MinimalFaceView" pc="268437235" symbol="&lt;globals/MinimalFaceView/&lt;&gt;timeFont&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="16" lineNum="130" parent="globals/MinimalFaceView" pc="268437257" symbol="&lt;globals/MinimalFaceView/&lt;&gt;timeFont&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="16" lineNum="133" parent="globals/MinimalFaceView" pc="268437276" symbol="&lt;globals/MinimalFaceView/&lt;&gt;timeFont&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="17" lineNum="593" parent="globals/MinimalFaceView" pc="268437282" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSunTimes&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="17" lineNum="594" parent="globals/MinimalFaceView" pc="268437285" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSunTimes&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="17" lineNum="595" parent="globals/MinimalFaceView" pc="268437301" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSunTimes&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="17" lineNum="596" parent="globals/MinimalFaceView" pc="268437317" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSunTimes&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="17" lineNum="597" parent="globals/MinimalFaceView" pc="268437321" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSunTimes&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="17" lineNum="598" parent="globals/MinimalFaceView" pc="268437328" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSunTimes&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="17" lineNum="600" parent="globals/MinimalFaceView" pc="268437335" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSunTimes&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="17" lineNum="601" parent="globals/MinimalFaceView" pc="268437380" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSunTimes&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="17" lineNum="602" parent="globals/MinimalFaceView" pc="268437392" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSunTimes&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="17" lineNum="603" parent="globals/MinimalFaceView" pc="268437420" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSunTimes&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="17" lineNum="604" parent="globals/MinimalFaceView" pc="268437429" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSunTimes&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="17" lineNum="605" parent="globals/MinimalFaceView" pc="268437441" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSunTimes&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="17" lineNum="606" parent="globals/MinimalFaceView" pc="268437459" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSunTimes&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="17" lineNum="607" parent="globals/MinimalFaceView" pc="268437477" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSunTimes&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="17" lineNum="608" parent="globals/MinimalFaceView" pc="268437483" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSunTimes&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="17" lineNum="609" parent="globals/MinimalFaceView" pc="268437500" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSunTimes&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="17" lineNum="611" parent="globals/MinimalFaceView" pc="268437525" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSunTimes&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="17" lineNum="612" parent="globals/MinimalFaceView" pc="268437531" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSunTimes&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="17" lineNum="613" parent="globals/MinimalFaceView" pc="268437548" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSunTimes&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="17" lineNum="618" parent="globals/MinimalFaceView" pc="268437579" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSunTimes&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="17" lineNum="619" parent="globals/MinimalFaceView" pc="268437595" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSunTimes&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="17" lineNum="620" parent="globals/MinimalFaceView" pc="268437625" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSunTimes&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="17" lineNum="621" parent="globals/MinimalFaceView" pc="268437655" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSunTimes&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="17" lineNum="622" parent="globals/MinimalFaceView" pc="268437679" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSunTimes&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="17" lineNum="623" parent="globals/MinimalFaceView" pc="268437703" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSunTimes&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="17" lineNum="624" parent="globals/MinimalFaceView" pc="268437719" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSunTimes&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="17" lineNum="625" parent="globals/MinimalFaceView" pc="268437735" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSunTimes&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="17" lineNum="627" parent="globals/MinimalFaceView" pc="268437745" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSunTimes&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="17" lineNum="628" parent="globals/MinimalFaceView" pc="268437772" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSunTimes&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="17" lineNum="629" parent="globals/MinimalFaceView" pc="268437789" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSunTimes&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="17" lineNum="631" parent="globals/MinimalFaceView" pc="268437818" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSunTimes&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="17" lineNum="632" parent="globals/MinimalFaceView" pc="268437845" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSunTimes&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="17" lineNum="633" parent="globals/MinimalFaceView" pc="268437862" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSunTimes&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="18" lineNum="27" parent="globals/MinimalFaceView" pc="268437892" symbol="onEnterSleep"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="18" lineNum="28" parent="globals/MinimalFaceView" pc="268437894" symbol="onEnterSleep"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="18" lineNum="29" parent="globals/MinimalFaceView" pc="268437902" symbol="onEnterSleep"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="19" lineNum="259" parent="globals/MinimalFaceView" pc="268437914" symbol="&lt;globals/MinimalFaceView/&lt;&gt;ringGeom&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="19" lineNum="260" parent="globals/MinimalFaceView" pc="268437917" symbol="&lt;globals/MinimalFaceView/&lt;&gt;ringGeom&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="19" lineNum="261" parent="globals/MinimalFaceView" pc="268437927" symbol="&lt;globals/MinimalFaceView/&lt;&gt;ringGeom&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="19" lineNum="262" parent="globals/MinimalFaceView" pc="268437937" symbol="&lt;globals/MinimalFaceView/&lt;&gt;ringGeom&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="19" lineNum="263" parent="globals/MinimalFaceView" pc="268437947" symbol="&lt;globals/MinimalFaceView/&lt;&gt;ringGeom&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="19" lineNum="264" parent="globals/MinimalFaceView" pc="268437957" symbol="&lt;globals/MinimalFaceView/&lt;&gt;ringGeom&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="19" lineNum="265" parent="globals/MinimalFaceView" pc="268437985" symbol="&lt;globals/MinimalFaceView/&lt;&gt;ringGeom&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="19" lineNum="266" parent="globals/MinimalFaceView" pc="268438019" symbol="&lt;globals/MinimalFaceView/&lt;&gt;ringGeom&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="19" lineNum="267" parent="globals/MinimalFaceView" pc="268438049" symbol="&lt;globals/MinimalFaceView/&lt;&gt;ringGeom&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="19" lineNum="268" parent="globals/MinimalFaceView" pc="268438075" symbol="&lt;globals/MinimalFaceView/&lt;&gt;ringGeom&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="19" lineNum="269" parent="globals/MinimalFaceView" pc="268438082" symbol="&lt;globals/MinimalFaceView/&lt;&gt;ringGeom&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="20" lineNum="114" parent="globals/MinimalFaceView" pc="268438165" symbol="&lt;globals/MinimalFaceView/&lt;&gt;textFont&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="20" lineNum="115" parent="globals/MinimalFaceView" pc="268438167" symbol="&lt;globals/MinimalFaceView/&lt;&gt;textFont&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="21" lineNum="140" parent="globals/MinimalFaceView" pc="268438202" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawDate&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="21" lineNum="141" parent="globals/MinimalFaceView" pc="268438205" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawDate&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="21" lineNum="142" parent="globals/MinimalFaceView" pc="268438231" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawDate&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="21" lineNum="143" parent="globals/MinimalFaceView" pc="268438287" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawDate&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="21" lineNum="144" parent="globals/MinimalFaceView" pc="268438329" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawDate&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="21" lineNum="145" parent="globals/MinimalFaceView" pc="268438346" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawDate&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="22" lineNum="685" parent="globals/MinimalFaceView" pc="268438367" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getTemperature&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="22" lineNum="686" parent="globals/MinimalFaceView" pc="268438370" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getTemperature&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="22" lineNum="687" parent="globals/MinimalFaceView" pc="268438400" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getTemperature&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="22" lineNum="688" parent="globals/MinimalFaceView" pc="268438412" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getTemperature&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="22" lineNum="689" parent="globals/MinimalFaceView" pc="268438429" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getTemperature&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="22" lineNum="692" parent="globals/MinimalFaceView" pc="268438449" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getTemperature&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="23" lineNum="459" parent="globals/MinimalFaceView" pc="268438451" symbol="&lt;globals/MinimalFaceView/&lt;&gt;classify&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="23" lineNum="460" parent="globals/MinimalFaceView" pc="268438453" symbol="&lt;globals/MinimalFaceView/&lt;&gt;classify&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="23" lineNum="460" parent="globals/MinimalFaceView" pc="268438459" symbol="&lt;globals/MinimalFaceView/&lt;&gt;classify&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="23" lineNum="461" parent="globals/MinimalFaceView" pc="268438465" symbol="&lt;globals/MinimalFaceView/&lt;&gt;classify&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="23" lineNum="461" parent="globals/MinimalFaceView" pc="268438485" symbol="&lt;globals/MinimalFaceView/&lt;&gt;classify&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="23" lineNum="462" parent="globals/MinimalFaceView" pc="268438490" symbol="&lt;globals/MinimalFaceView/&lt;&gt;classify&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="23" lineNum="462" parent="globals/MinimalFaceView" pc="268438510" symbol="&lt;globals/MinimalFaceView/&lt;&gt;classify&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="23" lineNum="463" parent="globals/MinimalFaceView" pc="268438516" symbol="&lt;globals/MinimalFaceView/&lt;&gt;classify&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="23" lineNum="463" parent="globals/MinimalFaceView" pc="268438536" symbol="&lt;globals/MinimalFaceView/&lt;&gt;classify&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="23" lineNum="464" parent="globals/MinimalFaceView" pc="268438542" symbol="&lt;globals/MinimalFaceView/&lt;&gt;classify&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="23" lineNum="464" parent="globals/MinimalFaceView" pc="268438562" symbol="&lt;globals/MinimalFaceView/&lt;&gt;classify&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="23" lineNum="465" parent="globals/MinimalFaceView" pc="268438568" symbol="&lt;globals/MinimalFaceView/&lt;&gt;classify&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="23" lineNum="465" parent="globals/MinimalFaceView" pc="268438588" symbol="&lt;globals/MinimalFaceView/&lt;&gt;classify&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="23" lineNum="466" parent="globals/MinimalFaceView" pc="268438594" symbol="&lt;globals/MinimalFaceView/&lt;&gt;classify&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="23" lineNum="466" parent="globals/MinimalFaceView" pc="268438614" symbol="&lt;globals/MinimalFaceView/&lt;&gt;classify&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="23" lineNum="467" parent="globals/MinimalFaceView" pc="268438620" symbol="&lt;globals/MinimalFaceView/&lt;&gt;classify&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="24" lineNum="301" parent="globals/MinimalFaceView" pc="268438623" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSlots&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="24" lineNum="302" parent="globals/MinimalFaceView" pc="268438626" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSlots&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="24" lineNum="303" parent="globals/MinimalFaceView" pc="268438637" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSlots&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="24" lineNum="304" parent="globals/MinimalFaceView" pc="268438653" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSlots&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="24" lineNum="305" parent="globals/MinimalFaceView" pc="268438665" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSlots&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="25" lineNum="210" parent="globals/MinimalFaceView" pc="268438713" symbol="&lt;globals/MinimalFaceView/&lt;&gt;glowArc&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="25" lineNum="212" parent="globals/MinimalFaceView" pc="268438716" symbol="&lt;globals/MinimalFaceView/&lt;&gt;glowArc&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="25" lineNum="213" parent="globals/MinimalFaceView" pc="268438723" symbol="&lt;globals/MinimalFaceView/&lt;&gt;glowArc&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="25" lineNum="215" parent="globals/MinimalFaceView" pc="268438727" symbol="&lt;globals/MinimalFaceView/&lt;&gt;glowArc&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="25" lineNum="216" parent="globals/MinimalFaceView" pc="268438757" symbol="&lt;globals/MinimalFaceView/&lt;&gt;glowArc&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="25" lineNum="217" parent="globals/MinimalFaceView" pc="268438764" symbol="&lt;globals/MinimalFaceView/&lt;&gt;glowArc&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="25" lineNum="218" parent="globals/MinimalFaceView" pc="268438775" symbol="&lt;globals/MinimalFaceView/&lt;&gt;glowArc&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="25" lineNum="219" parent="globals/MinimalFaceView" pc="268438790" symbol="&lt;globals/MinimalFaceView/&lt;&gt;glowArc&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="25" lineNum="220" parent="globals/MinimalFaceView" pc="268438817" symbol="&lt;globals/MinimalFaceView/&lt;&gt;glowArc&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="25" lineNum="222" parent="globals/MinimalFaceView" pc="268438846" symbol="&lt;globals/MinimalFaceView/&lt;&gt;glowArc&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="25" lineNum="223" parent="globals/MinimalFaceView" pc="268438858" symbol="&lt;globals/MinimalFaceView/&lt;&gt;glowArc&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="25" lineNum="224" parent="globals/MinimalFaceView" pc="268438872" symbol="&lt;globals/MinimalFaceView/&lt;&gt;glowArc&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="25" lineNum="225" parent="globals/MinimalFaceView" pc="268438891" symbol="&lt;globals/MinimalFaceView/&lt;&gt;glowArc&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="26" lineNum="249" parent="globals/MinimalFaceView" pc="268438904" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawBatteryRing&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="26" lineNum="250" parent="globals/MinimalFaceView" pc="268438906" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawBatteryRing&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="27" lineNum="659" parent="globals/MinimalFaceView" pc="268438956" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getHeartRate&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="27" lineNum="660" parent="globals/MinimalFaceView" pc="268438959" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getHeartRate&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="27" lineNum="661" parent="globals/MinimalFaceView" pc="268438971" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getHeartRate&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="27" lineNum="662" parent="globals/MinimalFaceView" pc="268438988" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getHeartRate&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="27" lineNum="664" parent="globals/MinimalFaceView" pc="268438999" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getHeartRate&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="27" lineNum="665" parent="globals/MinimalFaceView" pc="268439016" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getHeartRate&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="27" lineNum="666" parent="globals/MinimalFaceView" pc="268439025" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getHeartRate&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="27" lineNum="667" parent="globals/MinimalFaceView" pc="268439045" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getHeartRate&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="27" lineNum="669" parent="globals/MinimalFaceView" pc="268439056" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getHeartRate&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="28" lineNum="310" parent="globals/MinimalFaceView" pc="268439058" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSlot&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="28" lineNum="311" parent="globals/MinimalFaceView" pc="268439061" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSlot&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="28" lineNum="312" parent="globals/MinimalFaceView" pc="268439067" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSlot&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="28" lineNum="313" parent="globals/MinimalFaceView" pc="268439074" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSlot&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="28" lineNum="314" parent="globals/MinimalFaceView" pc="268439081" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSlot&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="28" lineNum="315" parent="globals/MinimalFaceView" pc="268439097" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSlot&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="28" lineNum="315" parent="globals/MinimalFaceView" pc="268439105" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSlot&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="28" lineNum="317" parent="globals/MinimalFaceView" pc="268439112" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSlot&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="28" lineNum="319" parent="globals/MinimalFaceView" pc="268439135" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSlot&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="28" lineNum="321" parent="globals/MinimalFaceView" pc="268439196" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSlot&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="28" lineNum="322" parent="globals/MinimalFaceView" pc="268439238" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSlot&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="28" lineNum="323" parent="globals/MinimalFaceView" pc="268439255" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSlot&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="519" parent="globals/MinimalFaceView" pc="268439291" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="521" parent="globals/MinimalFaceView" pc="268439294" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="522" parent="globals/MinimalFaceView" pc="268439301" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="523" parent="globals/MinimalFaceView" pc="268439308" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="524" parent="globals/MinimalFaceView" pc="268439320" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="526" parent="globals/MinimalFaceView" pc="268439329" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="527" parent="globals/MinimalFaceView" pc="268439341" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="528" parent="globals/MinimalFaceView" pc="268439368" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="530" parent="globals/MinimalFaceView" pc="268439401" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="531" parent="globals/MinimalFaceView" pc="268439409" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="532" parent="globals/MinimalFaceView" pc="268439442" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="533" parent="globals/MinimalFaceView" pc="268439459" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="535" parent="globals/MinimalFaceView" pc="268439494" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="538" parent="globals/MinimalFaceView" pc="268439498" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="539" parent="globals/MinimalFaceView" pc="268439515" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="540" parent="globals/MinimalFaceView" pc="268439518" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="541" parent="globals/MinimalFaceView" pc="268439525" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="542" parent="globals/MinimalFaceView" pc="268439540" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="543" parent="globals/MinimalFaceView" pc="268439546" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="544" parent="globals/MinimalFaceView" pc="268439552" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="545" parent="globals/MinimalFaceView" pc="268439563" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="546" parent="globals/MinimalFaceView" pc="268439570" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="546" parent="globals/MinimalFaceView" pc="268439578" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="547" parent="globals/MinimalFaceView" pc="268439585" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="547" parent="globals/MinimalFaceView" pc="268439593" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="549" parent="globals/MinimalFaceView" pc="268439610" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="550" parent="globals/MinimalFaceView" pc="268439624" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="554" parent="globals/MinimalFaceView" pc="268439640" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="555" parent="globals/MinimalFaceView" pc="268439645" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="556" parent="globals/MinimalFaceView" pc="268439650" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="557" parent="globals/MinimalFaceView" pc="268439661" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="558" parent="globals/MinimalFaceView" pc="268439677" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="559" parent="globals/MinimalFaceView" pc="268439693" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="559" parent="globals/MinimalFaceView" pc="268439700" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="560" parent="globals/MinimalFaceView" pc="268439706" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="560" parent="globals/MinimalFaceView" pc="268439717" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="561" parent="globals/MinimalFaceView" pc="268439727" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="562" parent="globals/MinimalFaceView" pc="268439746" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="565" parent="globals/MinimalFaceView" pc="268439778" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="566" parent="globals/MinimalFaceView" pc="268439785" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="567" parent="globals/MinimalFaceView" pc="268439792" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="568" parent="globals/MinimalFaceView" pc="268439803" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="569" parent="globals/MinimalFaceView" pc="268439818" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="570" parent="globals/MinimalFaceView" pc="268439845" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="571" parent="globals/MinimalFaceView" pc="268439859" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="574" parent="globals/MinimalFaceView" pc="268439915" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="575" parent="globals/MinimalFaceView" pc="268439927" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="576" parent="globals/MinimalFaceView" pc="268439941" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="577" parent="globals/MinimalFaceView" pc="268439955" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="579" parent="globals/MinimalFaceView" pc="268440001" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="29" lineNum="580" parent="globals/MinimalFaceView" pc="268440029" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="30" lineNum="78" parent="globals/MinimalFaceView" pc="268440042" symbol="&lt;globals/MinimalFaceView/&lt;&gt;prop&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="30" lineNum="79" parent="globals/MinimalFaceView" pc="268440045" symbol="&lt;globals/MinimalFaceView/&lt;&gt;prop&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="30" lineNum="80" parent="globals/MinimalFaceView" pc="268440061" symbol="&lt;globals/MinimalFaceView/&lt;&gt;prop&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="30" lineNum="81" parent="globals/MinimalFaceView" pc="268440076" symbol="&lt;globals/MinimalFaceView/&lt;&gt;prop&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="30" lineNum="83" parent="globals/MinimalFaceView" pc="268440082" symbol="&lt;globals/MinimalFaceView/&lt;&gt;prop&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="31" lineNum="274" parent="globals/MinimalFaceView" pc="268440085" symbol="&lt;globals/MinimalFaceView/&lt;&gt;slotId&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="31" lineNum="275" parent="globals/MinimalFaceView" pc="268440088" symbol="&lt;globals/MinimalFaceView/&lt;&gt;slotId&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="31" lineNum="276" parent="globals/MinimalFaceView" pc="268440095" symbol="&lt;globals/MinimalFaceView/&lt;&gt;slotId&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="31" lineNum="277" parent="globals/MinimalFaceView" pc="268440112" symbol="&lt;globals/MinimalFaceView/&lt;&gt;slotId&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="31" lineNum="278" parent="globals/MinimalFaceView" pc="268440128" symbol="&lt;globals/MinimalFaceView/&lt;&gt;slotId&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="31" lineNum="280" parent="globals/MinimalFaceView" pc="268440134" symbol="&lt;globals/MinimalFaceView/&lt;&gt;slotId&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="32" lineNum="32" parent="globals/MinimalFaceView" pc="268440137" symbol="onExitSleep"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="32" lineNum="33" parent="globals/MinimalFaceView" pc="268440139" symbol="onExitSleep"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="32" lineNum="34" parent="globals/MinimalFaceView" pc="268440147" symbol="onExitSleep"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="33" lineNum="793" parent="globals/MinimalFaceView" pc="268440159" symbol="&lt;globals/MinimalFaceView/&lt;&gt;sunShape&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="33" lineNum="794" parent="globals/MinimalFaceView" pc="268440162" symbol="&lt;globals/MinimalFaceView/&lt;&gt;sunShape&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="33" lineNum="795" parent="globals/MinimalFaceView" pc="268440232" symbol="&lt;globals/MinimalFaceView/&lt;&gt;sunShape&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="33" lineNum="796" parent="globals/MinimalFaceView" pc="268440249" symbol="&lt;globals/MinimalFaceView/&lt;&gt;sunShape&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="33" lineNum="797" parent="globals/MinimalFaceView" pc="268440274" symbol="&lt;globals/MinimalFaceView/&lt;&gt;sunShape&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="33" lineNum="798" parent="globals/MinimalFaceView" pc="268440300" symbol="&lt;globals/MinimalFaceView/&lt;&gt;sunShape&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="33" lineNum="799" parent="globals/MinimalFaceView" pc="268440311" symbol="&lt;globals/MinimalFaceView/&lt;&gt;sunShape&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="34" lineNum="804" parent="globals/MinimalFaceView" pc="268440434" symbol="&lt;globals/MinimalFaceView/&lt;&gt;cloudShape&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="34" lineNum="805" parent="globals/MinimalFaceView" pc="268440436" symbol="&lt;globals/MinimalFaceView/&lt;&gt;cloudShape&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="34" lineNum="806" parent="globals/MinimalFaceView" pc="268440450" symbol="&lt;globals/MinimalFaceView/&lt;&gt;cloudShape&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="34" lineNum="807" parent="globals/MinimalFaceView" pc="268440500" symbol="&lt;globals/MinimalFaceView/&lt;&gt;cloudShape&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="34" lineNum="808" parent="globals/MinimalFaceView" pc="268440550" symbol="&lt;globals/MinimalFaceView/&lt;&gt;cloudShape&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="34" lineNum="809" parent="globals/MinimalFaceView" pc="268440603" symbol="&lt;globals/MinimalFaceView/&lt;&gt;cloudShape&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="35" lineNum="703" parent="globals/MinimalFaceView" pc="268440666" symbol="&lt;globals/MinimalFaceView/&lt;&gt;sz&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="35" lineNum="704" parent="globals/MinimalFaceView" pc="268440669" symbol="&lt;globals/MinimalFaceView/&lt;&gt;sz&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="35" lineNum="705" parent="globals/MinimalFaceView" pc="268440682" symbol="&lt;globals/MinimalFaceView/&lt;&gt;sz&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="723" parent="globals/MinimalFaceView" pc="268440698" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="724" parent="globals/MinimalFaceView" pc="268440701" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="725" parent="globals/MinimalFaceView" pc="268440711" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="726" parent="globals/MinimalFaceView" pc="268440727" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="726" parent="globals/MinimalFaceView" pc="268440735" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="727" parent="globals/MinimalFaceView" pc="268440742" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="728" parent="globals/MinimalFaceView" pc="268440756" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="730" parent="globals/MinimalFaceView" pc="268440768" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="731" parent="globals/MinimalFaceView" pc="268440775" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="732" parent="globals/MinimalFaceView" pc="268440840" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="733" parent="globals/MinimalFaceView" pc="268440893" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="734" parent="globals/MinimalFaceView" pc="268440958" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="735" parent="globals/MinimalFaceView" pc="268441014" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="736" parent="globals/MinimalFaceView" pc="268441022" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="737" parent="globals/MinimalFaceView" pc="268441075" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="738" parent="globals/MinimalFaceView" pc="268441128" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="739" parent="globals/MinimalFaceView" pc="268441153" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="740" parent="globals/MinimalFaceView" pc="268441161" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="741" parent="globals/MinimalFaceView" pc="268441186" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="742" parent="globals/MinimalFaceView" pc="268441194" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="743" parent="globals/MinimalFaceView" pc="268441219" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="744" parent="globals/MinimalFaceView" pc="268441244" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="745" parent="globals/MinimalFaceView" pc="268441269" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="746" parent="globals/MinimalFaceView" pc="268441294" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="747" parent="globals/MinimalFaceView" pc="268441322" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="748" parent="globals/MinimalFaceView" pc="268441330" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="749" parent="globals/MinimalFaceView" pc="268441368" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="750" parent="globals/MinimalFaceView" pc="268441390" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="751" parent="globals/MinimalFaceView" pc="268441403" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="752" parent="globals/MinimalFaceView" pc="268441447" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="753" parent="globals/MinimalFaceView" pc="268441455" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="754" parent="globals/MinimalFaceView" pc="268441493" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="755" parent="globals/MinimalFaceView" pc="268441516" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="756" parent="globals/MinimalFaceView" pc="268441540" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="757" parent="globals/MinimalFaceView" pc="268441580" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="758" parent="globals/MinimalFaceView" pc="268441588" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="759" parent="globals/MinimalFaceView" pc="268441613" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="760" parent="globals/MinimalFaceView" pc="268441621" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="761" parent="globals/MinimalFaceView" pc="268441695" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="762" parent="globals/MinimalFaceView" pc="268441739" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="763" parent="globals/MinimalFaceView" pc="268441747" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="764" parent="globals/MinimalFaceView" pc="268441809" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="765" parent="globals/MinimalFaceView" pc="268441833" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="766" parent="globals/MinimalFaceView" pc="268441860" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="767" parent="globals/MinimalFaceView" pc="268441868" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="768" parent="globals/MinimalFaceView" pc="268441893" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="769" parent="globals/MinimalFaceView" pc="268441917" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="770" parent="globals/MinimalFaceView" pc="268441940" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="771" parent="globals/MinimalFaceView" pc="268441964" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="772" parent="globals/MinimalFaceView" pc="268441992" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="773" parent="globals/MinimalFaceView" pc="268442008" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="774" parent="globals/MinimalFaceView" pc="268442051" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="775" parent="globals/MinimalFaceView" pc="268442076" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="776" parent="globals/MinimalFaceView" pc="268442099" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="777" parent="globals/MinimalFaceView" pc="268442107" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="778" parent="globals/MinimalFaceView" pc="268442131" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="780" parent="globals/MinimalFaceView" pc="268442158" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="781" parent="globals/MinimalFaceView" pc="268442182" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="783" parent="globals/MinimalFaceView" pc="268442209" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="784" parent="globals/MinimalFaceView" pc="268442217" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="785" parent="globals/MinimalFaceView" pc="268442279" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="786" parent="globals/MinimalFaceView" pc="268442347" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="36" lineNum="788" parent="globals/MinimalFaceView" pc="268442412" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="37" lineNum="487" parent="globals/MinimalFaceView" pc="268442425" symbol="&lt;globals/MinimalFaceView/&lt;&gt;readSeries&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="37" lineNum="488" parent="globals/MinimalFaceView" pc="268442428" symbol="&lt;globals/MinimalFaceView/&lt;&gt;readSeries&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="37" lineNum="489" parent="globals/MinimalFaceView" pc="268442432" symbol="&lt;globals/MinimalFaceView/&lt;&gt;readSeries&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="37" lineNum="490" parent="globals/MinimalFaceView" pc="268442448" symbol="&lt;globals/MinimalFaceView/&lt;&gt;readSeries&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="37" lineNum="492" parent="globals/MinimalFaceView" pc="268442454" symbol="&lt;globals/MinimalFaceView/&lt;&gt;readSeries&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="37" lineNum="493" parent="globals/MinimalFaceView" pc="268442495" symbol="&lt;globals/MinimalFaceView/&lt;&gt;readSeries&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="37" lineNum="494" parent="globals/MinimalFaceView" pc="268442518" symbol="&lt;globals/MinimalFaceView/&lt;&gt;readSeries&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="37" lineNum="496" parent="globals/MinimalFaceView" pc="268442521" symbol="&lt;globals/MinimalFaceView/&lt;&gt;readSeries&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="37" lineNum="497" parent="globals/MinimalFaceView" pc="268442543" symbol="&lt;globals/MinimalFaceView/&lt;&gt;readSeries&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="37" lineNum="498" parent="globals/MinimalFaceView" pc="268442562" symbol="&lt;globals/MinimalFaceView/&lt;&gt;readSeries&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="37" lineNum="499" parent="globals/MinimalFaceView" pc="268442585" symbol="&lt;globals/MinimalFaceView/&lt;&gt;readSeries&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="37" lineNum="500" parent="globals/MinimalFaceView" pc="268442604" symbol="&lt;globals/MinimalFaceView/&lt;&gt;readSeries&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="37" lineNum="501" parent="globals/MinimalFaceView" pc="268442627" symbol="&lt;globals/MinimalFaceView/&lt;&gt;readSeries&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="37" lineNum="502" parent="globals/MinimalFaceView" pc="268442646" symbol="&lt;globals/MinimalFaceView/&lt;&gt;readSeries&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="37" lineNum="503" parent="globals/MinimalFaceView" pc="268442669" symbol="&lt;globals/MinimalFaceView/&lt;&gt;readSeries&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="37" lineNum="505" parent="globals/MinimalFaceView" pc="268442688" symbol="&lt;globals/MinimalFaceView/&lt;&gt;readSeries&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="37" lineNum="506" parent="globals/MinimalFaceView" pc="268442694" symbol="&lt;globals/MinimalFaceView/&lt;&gt;readSeries&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="37" lineNum="509" parent="globals/MinimalFaceView" pc="268442700" symbol="&lt;globals/MinimalFaceView/&lt;&gt;readSeries&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="37" lineNum="510" parent="globals/MinimalFaceView" pc="268442709" symbol="&lt;globals/MinimalFaceView/&lt;&gt;readSeries&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="37" lineNum="511" parent="globals/MinimalFaceView" pc="268442715" symbol="&lt;globals/MinimalFaceView/&lt;&gt;readSeries&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="37" lineNum="512" parent="globals/MinimalFaceView" pc="268442726" symbol="&lt;globals/MinimalFaceView/&lt;&gt;readSeries&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="37" lineNum="514" parent="globals/MinimalFaceView" pc="268442752" symbol="&lt;globals/MinimalFaceView/&lt;&gt;readSeries&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="37" lineNum="516" parent="globals/MinimalFaceView" pc="268442764" symbol="&lt;globals/MinimalFaceView/&lt;&gt;readSeries&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="38" lineNum="413" parent="globals/MinimalFaceView" pc="268442767" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawRow&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="38" lineNum="415" parent="globals/MinimalFaceView" pc="268442770" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawRow&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="38" lineNum="416" parent="globals/MinimalFaceView" pc="268442774" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawRow&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="38" lineNum="417" parent="globals/MinimalFaceView" pc="268442778" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawRow&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="38" lineNum="419" parent="globals/MinimalFaceView" pc="268442781" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawRow&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="38" lineNum="420" parent="globals/MinimalFaceView" pc="268442797" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawRow&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="38" lineNum="421" parent="globals/MinimalFaceView" pc="268442808" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawRow&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="38" lineNum="423" parent="globals/MinimalFaceView" pc="268442814" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawRow&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="38" lineNum="424" parent="globals/MinimalFaceView" pc="268442829" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawRow&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="38" lineNum="425" parent="globals/MinimalFaceView" pc="268442836" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawRow&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="38" lineNum="426" parent="globals/MinimalFaceView" pc="268442839" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawRow&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="38" lineNum="427" parent="globals/MinimalFaceView" pc="268442846" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawRow&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="38" lineNum="428" parent="globals/MinimalFaceView" pc="268442852" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawRow&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="38" lineNum="429" parent="globals/MinimalFaceView" pc="268442873" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawRow&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="38" lineNum="431" parent="globals/MinimalFaceView" pc="268442897" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawRow&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="38" lineNum="432" parent="globals/MinimalFaceView" pc="268442921" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawRow&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="38" lineNum="433" parent="globals/MinimalFaceView" pc="268442933" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawRow&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="38" lineNum="435" parent="globals/MinimalFaceView" pc="268442950" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawRow&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="38" lineNum="436" parent="globals/MinimalFaceView" pc="268442962" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawRow&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="38" lineNum="438" parent="globals/MinimalFaceView" pc="268442966" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawRow&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="38" lineNum="440" parent="globals/MinimalFaceView" pc="268442984" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawRow&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="38" lineNum="441" parent="globals/MinimalFaceView" pc="268442994" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawRow&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="38" lineNum="442" parent="globals/MinimalFaceView" pc="268443010" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawRow&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="38" lineNum="443" parent="globals/MinimalFaceView" pc="268443019" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawRow&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="38" lineNum="444" parent="globals/MinimalFaceView" pc="268443029" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawRow&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="38" lineNum="445" parent="globals/MinimalFaceView" pc="268443039" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawRow&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="38" lineNum="447" parent="globals/MinimalFaceView" pc="268443067" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawRow&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="38" lineNum="449" parent="globals/MinimalFaceView" pc="268443096" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawRow&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="38" lineNum="450" parent="globals/MinimalFaceView" pc="268443105" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawRow&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="38" lineNum="451" parent="globals/MinimalFaceView" pc="268443122" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawRow&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="38" lineNum="454" parent="globals/MinimalFaceView" pc="268443157" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawRow&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="39" lineNum="382" parent="globals/MinimalFaceView" pc="268443181" symbol="&lt;globals/MinimalFaceView/&lt;&gt;itemOf&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="39" lineNum="383" parent="globals/MinimalFaceView" pc="268443184" symbol="&lt;globals/MinimalFaceView/&lt;&gt;itemOf&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="39" lineNum="384" parent="globals/MinimalFaceView" pc="268443192" symbol="&lt;globals/MinimalFaceView/&lt;&gt;itemOf&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="39" lineNum="385" parent="globals/MinimalFaceView" pc="268443209" symbol="&lt;globals/MinimalFaceView/&lt;&gt;itemOf&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="39" lineNum="386" parent="globals/MinimalFaceView" pc="268443224" symbol="&lt;globals/MinimalFaceView/&lt;&gt;itemOf&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="39" lineNum="388" parent="globals/MinimalFaceView" pc="268443274" symbol="&lt;globals/MinimalFaceView/&lt;&gt;itemOf&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="39" lineNum="389" parent="globals/MinimalFaceView" pc="268443282" symbol="&lt;globals/MinimalFaceView/&lt;&gt;itemOf&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="39" lineNum="391" parent="globals/MinimalFaceView" pc="268443325" symbol="&lt;globals/MinimalFaceView/&lt;&gt;itemOf&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="39" lineNum="392" parent="globals/MinimalFaceView" pc="268443333" symbol="&lt;globals/MinimalFaceView/&lt;&gt;itemOf&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="39" lineNum="393" parent="globals/MinimalFaceView" pc="268443337" symbol="&lt;globals/MinimalFaceView/&lt;&gt;itemOf&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="39" lineNum="394" parent="globals/MinimalFaceView" pc="268443340" symbol="&lt;globals/MinimalFaceView/&lt;&gt;itemOf&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="39" lineNum="395" parent="globals/MinimalFaceView" pc="268443370" symbol="&lt;globals/MinimalFaceView/&lt;&gt;itemOf&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="39" lineNum="396" parent="globals/MinimalFaceView" pc="268443382" symbol="&lt;globals/MinimalFaceView/&lt;&gt;itemOf&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="39" lineNum="397" parent="globals/MinimalFaceView" pc="268443388" symbol="&lt;globals/MinimalFaceView/&lt;&gt;itemOf&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="39" lineNum="398" parent="globals/MinimalFaceView" pc="268443405" symbol="&lt;globals/MinimalFaceView/&lt;&gt;itemOf&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="39" lineNum="399" parent="globals/MinimalFaceView" pc="268443416" symbol="&lt;globals/MinimalFaceView/&lt;&gt;itemOf&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="39" lineNum="403" parent="globals/MinimalFaceView" pc="268443452" symbol="&lt;globals/MinimalFaceView/&lt;&gt;itemOf&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="39" lineNum="405" parent="globals/MinimalFaceView" pc="268443473" symbol="&lt;globals/MinimalFaceView/&lt;&gt;itemOf&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="39" lineNum="406" parent="globals/MinimalFaceView" pc="268443481" symbol="&lt;globals/MinimalFaceView/&lt;&gt;itemOf&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="39" lineNum="407" parent="globals/MinimalFaceView" pc="268443498" symbol="&lt;globals/MinimalFaceView/&lt;&gt;itemOf&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="39" lineNum="409" parent="globals/MinimalFaceView" pc="268443544" symbol="&lt;globals/MinimalFaceView/&lt;&gt;itemOf&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="39" lineNum="410" parent="globals/MinimalFaceView" pc="268443556" symbol="&lt;globals/MinimalFaceView/&lt;&gt;itemOf&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="40" lineNum="699" parent="globals/MinimalFaceView" pc="268443584" symbol="&lt;globals/MinimalFaceView/&lt;&gt;u&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="40" lineNum="700" parent="globals/MinimalFaceView" pc="268443586" symbol="&lt;globals/MinimalFaceView/&lt;&gt;u&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="41" lineNum="94" parent="globals/MinimalFaceView" pc="268443601" symbol="&lt;globals/MinimalFaceView/&lt;&gt;pickFont&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="41" lineNum="96" parent="globals/MinimalFaceView" pc="268443604" symbol="&lt;globals/MinimalFaceView/&lt;&gt;pickFont&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="41" lineNum="97" parent="globals/MinimalFaceView" pc="268443627" symbol="&lt;globals/MinimalFaceView/&lt;&gt;pickFont&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="41" lineNum="99" parent="globals/MinimalFaceView" pc="268443633" symbol="&lt;globals/MinimalFaceView/&lt;&gt;pickFont&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="41" lineNum="100" parent="globals/MinimalFaceView" pc="268443636" symbol="&lt;globals/MinimalFaceView/&lt;&gt;pickFont&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="41" lineNum="101" parent="globals/MinimalFaceView" pc="268443640" symbol="&lt;globals/MinimalFaceView/&lt;&gt;pickFont&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="41" lineNum="102" parent="globals/MinimalFaceView" pc="268443648" symbol="&lt;globals/MinimalFaceView/&lt;&gt;pickFont&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="41" lineNum="103" parent="globals/MinimalFaceView" pc="268443691" symbol="&lt;globals/MinimalFaceView/&lt;&gt;pickFont&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="41" lineNum="104" parent="globals/MinimalFaceView" pc="268443697" symbol="&lt;globals/MinimalFaceView/&lt;&gt;pickFont&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="41" lineNum="106" parent="globals/MinimalFaceView" pc="268443703" symbol="&lt;globals/MinimalFaceView/&lt;&gt;pickFont&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="41" lineNum="107" parent="globals/MinimalFaceView" pc="268443722" symbol="&lt;globals/MinimalFaceView/&lt;&gt;pickFont&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="41" lineNum="109" parent="globals/MinimalFaceView" pc="268443728" symbol="&lt;globals/MinimalFaceView/&lt;&gt;pickFont&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="41" lineNum="111" parent="globals/MinimalFaceView" pc="268443738" symbol="&lt;globals/MinimalFaceView/&lt;&gt;pickFont&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="42" lineNum="243" parent="globals/MinimalFaceView" pc="268443752" symbol="&lt;globals/MinimalFaceView/&lt;&gt;batteryColor&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="42" lineNum="244" parent="globals/MinimalFaceView" pc="268443754" symbol="&lt;globals/MinimalFaceView/&lt;&gt;batteryColor&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="42" lineNum="244" parent="globals/MinimalFaceView" pc="268443765" symbol="&lt;globals/MinimalFaceView/&lt;&gt;batteryColor&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="42" lineNum="245" parent="globals/MinimalFaceView" pc="268443774" symbol="&lt;globals/MinimalFaceView/&lt;&gt;batteryColor&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="42" lineNum="245" parent="globals/MinimalFaceView" pc="268443785" symbol="&lt;globals/MinimalFaceView/&lt;&gt;batteryColor&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="42" lineNum="246" parent="globals/MinimalFaceView" pc="268443794" symbol="&lt;globals/MinimalFaceView/&lt;&gt;batteryColor&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="43" lineNum="713" parent="globals/MinimalFaceView" pc="268443799" symbol="&lt;globals/MinimalFaceView/&lt;&gt;poly&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="43" lineNum="714" parent="globals/MinimalFaceView" pc="268443802" symbol="&lt;globals/MinimalFaceView/&lt;&gt;poly&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="43" lineNum="715" parent="globals/MinimalFaceView" pc="268443806" symbol="&lt;globals/MinimalFaceView/&lt;&gt;poly&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="43" lineNum="716" parent="globals/MinimalFaceView" pc="268443822" symbol="&lt;globals/MinimalFaceView/&lt;&gt;poly&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="43" lineNum="718" parent="globals/MinimalFaceView" pc="268443889" symbol="&lt;globals/MinimalFaceView/&lt;&gt;poly&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="44" lineNum="285" parent="globals/MinimalFaceView" pc="268443902" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawHaze&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="44" lineNum="286" parent="globals/MinimalFaceView" pc="268443905" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawHaze&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="44" lineNum="287" parent="globals/MinimalFaceView" pc="268443912" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawHaze&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="44" lineNum="288" parent="globals/MinimalFaceView" pc="268443919" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawHaze&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="44" lineNum="289" parent="globals/MinimalFaceView" pc="268443923" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawHaze&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="44" lineNum="290" parent="globals/MinimalFaceView" pc="268443934" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawHaze&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="44" lineNum="292" parent="globals/MinimalFaceView" pc="268443975" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawHaze&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="44" lineNum="293" parent="globals/MinimalFaceView" pc="268443986" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawHaze&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="44" lineNum="294" parent="globals/MinimalFaceView" pc="268443997" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawHaze&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="44" lineNum="295" parent="globals/MinimalFaceView" pc="268444013" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawHaze&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="44" lineNum="296" parent="globals/MinimalFaceView" pc="268444043" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawHaze&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="45" lineNum="23" parent="globals/MinimalFaceView" pc="268444100" symbol="initialize"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="45" lineNum="24" parent="globals/MinimalFaceView" pc="268444102" symbol="initialize"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="328" parent="globals/MinimalFaceView" pc="268444115" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="329" parent="globals/MinimalFaceView" pc="268444118" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="331" parent="globals/MinimalFaceView" pc="268444130" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="332" parent="globals/MinimalFaceView" pc="268444137" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="333" parent="globals/MinimalFaceView" pc="268444187" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="334" parent="globals/MinimalFaceView" pc="268444195" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="335" parent="globals/MinimalFaceView" pc="268444203" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="336" parent="globals/MinimalFaceView" pc="268444209" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="338" parent="globals/MinimalFaceView" pc="268444218" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="339" parent="globals/MinimalFaceView" pc="268444254" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="340" parent="globals/MinimalFaceView" pc="268444262" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="341" parent="globals/MinimalFaceView" pc="268444309" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="342" parent="globals/MinimalFaceView" pc="268444317" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="343" parent="globals/MinimalFaceView" pc="268444339" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="345" parent="globals/MinimalFaceView" pc="268444390" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="346" parent="globals/MinimalFaceView" pc="268444399" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="347" parent="globals/MinimalFaceView" pc="268444407" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="348" parent="globals/MinimalFaceView" pc="268444417" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="349" parent="globals/MinimalFaceView" pc="268444431" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="351" parent="globals/MinimalFaceView" pc="268444476" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="352" parent="globals/MinimalFaceView" pc="268444485" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="353" parent="globals/MinimalFaceView" pc="268444493" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="354" parent="globals/MinimalFaceView" pc="268444501" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="355" parent="globals/MinimalFaceView" pc="268444507" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="357" parent="globals/MinimalFaceView" pc="268444559" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="358" parent="globals/MinimalFaceView" pc="268444568" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="359" parent="globals/MinimalFaceView" pc="268444576" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="360" parent="globals/MinimalFaceView" pc="268444584" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="361" parent="globals/MinimalFaceView" pc="268444590" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="363" parent="globals/MinimalFaceView" pc="268444599" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="364" parent="globals/MinimalFaceView" pc="268444634" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="365" parent="globals/MinimalFaceView" pc="268444642" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="366" parent="globals/MinimalFaceView" pc="268444659" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="368" parent="globals/MinimalFaceView" pc="268444707" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="369" parent="globals/MinimalFaceView" pc="268444715" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="370" parent="globals/MinimalFaceView" pc="268444721" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="46" lineNum="372" parent="globals/MinimalFaceView" pc="268444730" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="47" lineNum="87" parent="globals/MinimalFaceView" pc="268444772" symbol="&lt;globals/MinimalFaceView/&lt;&gt;faces&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="47" lineNum="88" parent="globals/MinimalFaceView" pc="268444774" symbol="&lt;globals/MinimalFaceView/&lt;&gt;faces&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="47" lineNum="88" parent="globals/MinimalFaceView" pc="268444782" symbol="&lt;globals/MinimalFaceView/&lt;&gt;faces&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="47" lineNum="89" parent="globals/MinimalFaceView" pc="268444791" symbol="&lt;globals/MinimalFaceView/&lt;&gt;faces&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="47" lineNum="89" parent="globals/MinimalFaceView" pc="268444799" symbol="&lt;globals/MinimalFaceView/&lt;&gt;faces&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="47" lineNum="90" parent="globals/MinimalFaceView" pc="268444808" symbol="&lt;globals/MinimalFaceView/&lt;&gt;faces&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="48" lineNum="474" parent="globals/MinimalFaceView" pc="268444814" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawBottom&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="48" lineNum="475" parent="globals/MinimalFaceView" pc="268444817" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawBottom&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="48" lineNum="476" parent="globals/MinimalFaceView" pc="268444833" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawBottom&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="48" lineNum="477" parent="globals/MinimalFaceView" pc="268444841" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawBottom&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="48" lineNum="479" parent="globals/MinimalFaceView" pc="268444845" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawBottom&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="48" lineNum="480" parent="globals/MinimalFaceView" pc="268444853" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawBottom&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="48" lineNum="482" parent="globals/MinimalFaceView" pc="268444873" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawBottom&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="48" lineNum="483" parent="globals/MinimalFaceView" pc="268444889" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawBottom&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="49" lineNum="37" parent="globals/MinimalFaceView" pc="268444943" symbol="onUpdate"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="49" lineNum="38" parent="globals/MinimalFaceView" pc="268444946" symbol="onUpdate"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="49" lineNum="39" parent="globals/MinimalFaceView" pc="268444955" symbol="onUpdate"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="49" lineNum="41" parent="globals/MinimalFaceView" pc="268444964" symbol="onUpdate"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="49" lineNum="42" parent="globals/MinimalFaceView" pc="268444980" symbol="onUpdate"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="49" lineNum="43" parent="globals/MinimalFaceView" pc="268444988" symbol="onUpdate"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="49" lineNum="44" parent="globals/MinimalFaceView" pc="268444999" symbol="onUpdate"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="49" lineNum="47" parent="globals/MinimalFaceView" pc="268445014" symbol="onUpdate"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="49" lineNum="48" parent="globals/MinimalFaceView" pc="268445045" symbol="onUpdate"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="49" lineNum="51" parent="globals/MinimalFaceView" pc="268445063" symbol="onUpdate"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="49" lineNum="53" parent="globals/MinimalFaceView" pc="268445079" symbol="onUpdate"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="49" lineNum="54" parent="globals/MinimalFaceView" pc="268445110" symbol="onUpdate"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="49" lineNum="57" parent="globals/MinimalFaceView" pc="268445141" symbol="onUpdate"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="49" lineNum="58" parent="globals/MinimalFaceView" pc="268445149" symbol="onUpdate"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="49" lineNum="61" parent="globals/MinimalFaceView" pc="268445153" symbol="onUpdate"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="49" lineNum="62" parent="globals/MinimalFaceView" pc="268445183" symbol="onUpdate"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="49" lineNum="65" parent="globals/MinimalFaceView" pc="268445198" symbol="onUpdate"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="49" lineNum="68" parent="globals/MinimalFaceView" pc="268445325" symbol="onUpdate"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="49" lineNum="71" parent="globals/MinimalFaceView" pc="268445434" symbol="onUpdate"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="50" lineNum="640" parent="globals/MinimalFaceView" pc="268445452" symbol="&lt;globals/MinimalFaceView/&lt;&gt;ratio&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="50" lineNum="641" parent="globals/MinimalFaceView" pc="268445455" symbol="&lt;globals/MinimalFaceView/&lt;&gt;ratio&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="50" lineNum="642" parent="globals/MinimalFaceView" pc="268445474" symbol="&lt;globals/MinimalFaceView/&lt;&gt;ratio&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="50" lineNum="644" parent="globals/MinimalFaceView" pc="268445479" symbol="&lt;globals/MinimalFaceView/&lt;&gt;ratio&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="50" lineNum="645" parent="globals/MinimalFaceView" pc="268445496" symbol="&lt;globals/MinimalFaceView/&lt;&gt;ratio&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="50" lineNum="645" parent="globals/MinimalFaceView" pc="268445503" symbol="&lt;globals/MinimalFaceView/&lt;&gt;ratio&gt;"/>
+        <entry filename="C:\\nyda\\MinimalWatchFace\\source\\MinimalFaceView.mc" id="50" lineNum="646" parent="globals/MinimalFaceView" pc="268445508" symbol="&lt;globals/MinimalFaceView/&lt;&gt;ratio&gt;"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry field="true" id="59" symbol="FontClassicDigits"/>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="13" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawBatteryRing&gt;"/>
+        <entry field="true" id="71" symbol="MetNone"/>
+        <entry id="19" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawProgressArc&gt;"/>
+        <entry id="33" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;itemOf&gt;"/>
+        <entry id="11" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;compact&gt;"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="22" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSlots&gt;"/>
+        <entry id="5" object="true" symbol="MinimalFaceApp"/>
+        <entry id="24" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawTime&gt;"/>
+        <entry id="8389683" method="true" symbol="onSettingsChanged"/>
+        <entry id="8389702" method="true" symbol="getHeartRateHistory"/>
+        <entry id="45" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;textFont&gt;"/>
+        <entry id="44" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;sz&gt;"/>
+        <entry id="41" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;ringGeom&gt;"/>
+        <entry id="8392220" method="true" symbol="getVectorFont"/>
+        <entry id="23" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSunTimes&gt;"/>
+        <entry id="8388924" module="true" symbol="Gregorian"/>
+        <entry id="16" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawDate&gt;"/>
+        <entry field="true" id="65" symbol="MetBattery"/>
+        <entry id="8391864" method="true" symbol="getSunrise"/>
+        <entry id="8391839" method="true" symbol="getBodyBatteryHistory"/>
+        <entry field="true" id="82" symbol="TextFontTitle"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry id="26" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;faces&gt;"/>
+        <entry field="true" id="50" symbol="BgGlowTitle"/>
+        <entry id="29" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getHeartRate&gt;"/>
+        <entry field="true" id="8388782" method="true" symbol="size"/>
+        <entry field="true" id="49" symbol="AppName"/>
+        <entry id="8388633" module="true" symbol="ActivityMonitor"/>
+        <entry field="true" id="58" symbol="FontBuiltin"/>
+        <entry field="true" id="66" symbol="MetBody"/>
+        <entry field="true" id="60" symbol="FontCondBold"/>
+        <entry id="4" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="32" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;glowArc&gt;"/>
+        <entry id="12" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;dim&gt;"/>
+        <entry id="34" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;ln&gt;"/>
+        <entry id="8388631" module="true" symbol="Activity"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;batteryColor&gt;"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="42" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;slotId&gt;"/>
+        <entry id="8391489" module="true" symbol="Weather"/>
+        <entry field="true" id="77" symbol="Slot2Title"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry field="true" id="85" symbol="Top2Title"/>
+        <entry id="46" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;timeFont&gt;"/>
+        <entry field="true" id="81" symbol="StatBTitle"/>
+        <entry field="true" id="53" symbol="ChHR"/>
+        <entry field="true" id="68" symbol="MetDist"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry id="27" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;fmtHM&gt;"/>
+        <entry id="35" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;neonRing&gt;"/>
+        <entry field="true" id="56" symbol="ChSun"/>
+        <entry id="8391661" method="true" symbol="getCurrentConditions"/>
+        <entry field="true" id="72" symbol="MetNotif"/>
+        <entry id="25" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawWeatherIcon&gt;"/>
+        <entry field="true" id="79" symbol="Slot4Title"/>
+        <entry id="21" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawSlot&gt;"/>
+        <entry field="true" id="74" symbol="MetTemp"/>
+        <entry id="8389802" method="true" symbol="getElevationHistory"/>
+        <entry field="true" id="54" symbol="ChNone"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="18" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;"/>
+        <entry id="8389809" symbol="order"/>
+        <entry id="36" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;pickFont&gt;"/>
+        <entry field="true" id="63" symbol="MetActive"/>
+        <entry field="true" id="61" symbol="FontCondLight"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry field="true" id="69" symbol="MetFloors"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="28" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getBodyBattery&gt;"/>
+        <entry id="8392219" symbol="face"/>
+        <entry field="true" id="83" symbol="TimeFontTitle"/>
+        <entry id="47" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;u&gt;"/>
+        <entry field="true" id="52" symbol="ChElev"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="62" symbol="FontRegular"/>
+        <entry field="true" id="48" symbol="LauncherIcon"/>
+        <entry field="true" id="70" symbol="MetHR"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="31" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getTemperature&gt;"/>
+        <entry id="6" object="true" symbol="MinimalFaceView"/>
+        <entry id="8391847" method="true" symbol="getStressHistory"/>
+        <entry field="true" id="64" symbol="MetBT"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="37" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;poly&gt;"/>
+        <entry id="30" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;"/>
+        <entry field="true" id="51" symbol="ChBody"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="20" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawRow&gt;"/>
+        <entry field="true" id="8389872" symbol="floorsClimbed"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="38" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;prop&gt;"/>
+        <entry id="43" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;sunShape&gt;"/>
+        <entry id="8389808" symbol="period"/>
+        <entry id="8388641" module="true" symbol="Math"/>
+        <entry id="8391701" method="true" symbol="setAntiAlias"/>
+        <entry field="true" id="75" symbol="MetWeather"/>
+        <entry field="true" id="7" symbol="&lt;globals/MinimalFaceView/&lt;&gt;_sleeping&gt;"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry field="true" id="76" symbol="Slot1Title"/>
+        <entry id="15" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;"/>
+        <entry field="true" id="84" symbol="Top1Title"/>
+        <entry field="true" id="55" symbol="ChStress"/>
+        <entry id="8389781" module="true" symbol="SensorHistory"/>
+        <entry field="true" id="73" symbol="MetSteps"/>
+        <entry id="9" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;classify&gt;"/>
+        <entry field="true" id="8391676" symbol="observationLocationPosition"/>
+        <entry field="true" id="80" symbol="StatATitle"/>
+        <entry id="14" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawBottom&gt;"/>
+        <entry id="40" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;readSeries&gt;"/>
+        <entry field="true" id="67" symbol="MetCal"/>
+        <entry id="17" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;drawHaze&gt;"/>
+        <entry field="true" id="78" symbol="Slot3Title"/>
+        <entry id="10" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;cloudShape&gt;"/>
+        <entry field="true" id="86" symbol="Top3Title"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry id="39" method="true" symbol="&lt;globals/MinimalFaceView/&lt;&gt;ratio&gt;"/>
+        <entry field="true" id="57" symbol="ChartTitle"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435641" name="hour" stackId="1" startPc="268435561"/>
+        <entry arg="true" endPc="268435641" name="min" stackId="2" startPc="268435561"/>
+        <entry arg="true" endPc="268435710" name="dc" stackId="1" startPc="268435642"/>
+        <entry arg="true" endPc="268435710" name="x" stackId="2" startPc="268435642"/>
+        <entry arg="true" endPc="268435710" name="y" stackId="3" startPc="268435642"/>
+        <entry arg="true" endPc="268435710" name="k" stackId="4" startPc="268435642"/>
+        <entry arg="true" endPc="268435710" name="a" stackId="5" startPc="268435642"/>
+        <entry arg="true" endPc="268435710" name="b" stackId="6" startPc="268435642"/>
+        <entry arg="true" endPc="268435710" name="c" stackId="7" startPc="268435642"/>
+        <entry arg="true" endPc="268435710" name="d" stackId="8" startPc="268435642"/>
+        <entry arg="true" endPc="268435781" name="n" stackId="1" startPc="268435711"/>
+        <entry arg="true" endPc="268435981" name="dc" stackId="1" startPc="268435782"/>
+        <entry arg="true" endPc="268435981" name="x" stackId="2" startPc="268435782"/>
+        <entry arg="true" endPc="268435981" name="y" stackId="3" startPc="268435782"/>
+        <entry arg="true" endPc="268435981" name="w" stackId="4" startPc="268435782"/>
+        <entry arg="true" endPc="268435981" name="h" stackId="5" startPc="268435782"/>
+        <entry endPc="268435980" name="clock" stackId="6" startPc="268435785"/>
+        <entry endPc="268435980" name="hour" stackId="7" startPc="268435785"/>
+        <entry endPc="268435980" name="txt" stackId="8" startPc="268435785"/>
+        <entry endPc="268435980" name="font" stackId="9" startPc="268435785"/>
+        <entry endPc="268435980" name="just" stackId="10" startPc="268435785"/>
+        <entry arg="true" endPc="268436056" name="c" stackId="1" startPc="268435982"/>
+        <entry arg="true" endPc="268436056" name="f" stackId="2" startPc="268435982"/>
+        <entry endPc="268436056" name="r" stackId="3" startPc="268435985"/>
+        <entry endPc="268436056" name="g" stackId="4" startPc="268435985"/>
+        <entry endPc="268436056" name="b" stackId="5" startPc="268435985"/>
+        <entry endPc="268436169" name="it" stackId="1" startPc="268436090"/>
+        <entry endPc="268436166" name="s" stackId="2" startPc="268436123"/>
+        <entry arg="true" endPc="268436273" name="dc" stackId="1" startPc="268436175"/>
+        <entry arg="true" endPc="268436273" name="cx" stackId="2" startPc="268436175"/>
+        <entry arg="true" endPc="268436273" name="cy" stackId="3" startPc="268436175"/>
+        <entry arg="true" endPc="268436273" name="r" stackId="4" startPc="268436175"/>
+        <entry arg="true" endPc="268436273" name="p" stackId="5" startPc="268436175"/>
+        <entry endPc="268436272" name="end" stackId="6" startPc="268436178"/>
+        <entry arg="true" endPc="268437026" name="dc" stackId="1" startPc="268436274"/>
+        <entry arg="true" endPc="268437026" name="kind" stackId="2" startPc="268436274"/>
+        <entry arg="true" endPc="268437026" name="x" stackId="3" startPc="268436274"/>
+        <entry arg="true" endPc="268437026" name="y" stackId="4" startPc="268436274"/>
+        <entry arg="true" endPc="268437026" name="s" stackId="5" startPc="268436274"/>
+        <entry endPc="268437025" name="k" stackId="6" startPc="268436277"/>
+        <entry endPc="268437025" name="cloud" stackId="7" startPc="268436277"/>
+        <entry arg="true" endPc="268437139" name="dc" stackId="1" startPc="268437027"/>
+        <entry arg="true" endPc="268437139" name="x" stackId="2" startPc="268437027"/>
+        <entry arg="true" endPc="268437139" name="y" stackId="3" startPc="268437027"/>
+        <entry arg="true" endPc="268437139" name="r" stackId="4" startPc="268437027"/>
+        <entry arg="true" endPc="268437139" name="p" stackId="5" startPc="268437027"/>
+        <entry arg="true" endPc="268437139" name="col" stackId="6" startPc="268437027"/>
+        <entry arg="true" endPc="268437139" name="pw" stackId="7" startPc="268437027"/>
+        <entry endPc="268437138" name="tw" stackId="8" startPc="268437030"/>
+        <entry arg="true" endPc="268437281" name="dc" stackId="1" startPc="268437140"/>
+        <entry arg="true" endPc="268437281" name="txt" stackId="2" startPc="268437140"/>
+        <entry arg="true" endPc="268437281" name="h" stackId="3" startPc="268437140"/>
+        <entry arg="true" endPc="268437281" name="maxW" stackId="4" startPc="268437140"/>
+        <entry endPc="268437281" name="style" stackId="5" startPc="268437143"/>
+        <entry endPc="268437213" name="f" stackId="6" startPc="268437167"/>
+        <entry endPc="268437281" name="fonts" stackId="7" startPc="268437143"/>
+        <entry endPc="268437275" name="i" stackId="8" startPc="268437235"/>
+        <entry arg="true" endPc="268437891" name="dc" stackId="1" startPc="268437282"/>
+        <entry arg="true" endPc="268437891" name="rx" stackId="2" startPc="268437282"/>
+        <entry arg="true" endPc="268437891" name="w" stackId="3" startPc="268437282"/>
+        <entry arg="true" endPc="268437891" name="h" stackId="4" startPc="268437282"/>
+        <entry endPc="268437890" name="y" stackId="5" startPc="268437285"/>
+        <entry endPc="268437890" name="s" stackId="6" startPc="268437285"/>
+        <entry endPc="268437890" name="left" stackId="7" startPc="268437285"/>
+        <entry endPc="268437890" name="sr" stackId="8" startPc="268437285"/>
+        <entry endPc="268437890" name="ss" stackId="9" startPc="268437285"/>
+        <entry endPc="268437575" name="c" stackId="10" startPc="268437380"/>
+        <entry endPc="268437572" name="loc" stackId="11" startPc="268437420"/>
+        <entry endPc="268437572" name="now" stackId="12" startPc="268437420"/>
+        <entry endPc="268437572" name="a" stackId="13" startPc="268437420"/>
+        <entry endPc="268437572" name="b" stackId="14" startPc="268437420"/>
+        <entry endPc="268437521" name="ia" stackId="15" startPc="268437483"/>
+        <entry endPc="268437569" name="ib" stackId="16" startPc="268437531"/>
+        <entry endPc="268437890" name="size" stackId="17" startPc="268437285"/>
+        <entry endPc="268437890" name="f1" stackId="18" startPc="268437285"/>
+        <entry endPc="268437890" name="f2" stackId="19" startPc="268437285"/>
+        <entry endPc="268437890" name="w1" stackId="20" startPc="268437285"/>
+        <entry endPc="268437890" name="w2" stackId="21" startPc="268437285"/>
+        <entry endPc="268437890" name="gap" stackId="22" startPc="268437285"/>
+        <entry endPc="268437890" name="x1" stackId="23" startPc="268437285"/>
+        <entry endPc="268437890" name="x2" stackId="24" startPc="268437285"/>
+        <entry arg="true" endPc="268438164" name="w" stackId="1" startPc="268437914"/>
+        <entry arg="true" endPc="268438164" name="h" stackId="2" startPc="268437914"/>
+        <entry arg="true" endPc="268438164" name="i" stackId="3" startPc="268437914"/>
+        <entry endPc="268438164" name="rc" stackId="4" startPc="268437917"/>
+        <entry endPc="268438164" name="rOut" stackId="5" startPc="268437917"/>
+        <entry endPc="268438164" name="rIn" stackId="6" startPc="268437917"/>
+        <entry endPc="268438164" name="gap" stackId="7" startPc="268437917"/>
+        <entry endPc="268438164" name="phi1" stackId="8" startPc="268437917"/>
+        <entry endPc="268438164" name="phi2" stackId="9" startPc="268437917"/>
+        <entry endPc="268438164" name="angs" stackId="10" startPc="268437917"/>
+        <entry endPc="268438164" name="rads" stackId="11" startPc="268437917"/>
+        <entry endPc="268438164" name="a" stackId="12" startPc="268437917"/>
+        <entry arg="true" endPc="268438201" name="dc" stackId="1" startPc="268438165"/>
+        <entry arg="true" endPc="268438201" name="txt" stackId="2" startPc="268438165"/>
+        <entry arg="true" endPc="268438201" name="size" stackId="3" startPc="268438165"/>
+        <entry arg="true" endPc="268438201" name="maxW" stackId="4" startPc="268438165"/>
+        <entry arg="true" endPc="268438366" name="dc" stackId="1" startPc="268438202"/>
+        <entry arg="true" endPc="268438366" name="x" stackId="2" startPc="268438202"/>
+        <entry arg="true" endPc="268438366" name="y" stackId="3" startPc="268438202"/>
+        <entry arg="true" endPc="268438366" name="w" stackId="4" startPc="268438202"/>
+        <entry arg="true" endPc="268438366" name="h" stackId="5" startPc="268438202"/>
+        <entry endPc="268438365" name="info" stackId="6" startPc="268438205"/>
+        <entry endPc="268438365" name="txt" stackId="7" startPc="268438205"/>
+        <entry endPc="268438365" name="f" stackId="8" startPc="268438205"/>
+        <entry endPc="268438445" name="c" stackId="1" startPc="268438400"/>
+        <entry arg="true" endPc="268438622" name="c" stackId="1" startPc="268438451"/>
+        <entry arg="true" endPc="268438712" name="dc" stackId="1" startPc="268438623"/>
+        <entry arg="true" endPc="268438712" name="w" stackId="2" startPc="268438623"/>
+        <entry arg="true" endPc="268438712" name="h" stackId="3" startPc="268438623"/>
+        <entry endPc="268438711" name="i" stackId="4" startPc="268438637"/>
+        <entry endPc="268438701" name="g" stackId="5" startPc="268438637"/>
+        <entry endPc="268438701" name="id" stackId="6" startPc="268438637"/>
+        <entry arg="true" endPc="268438903" name="dc" stackId="1" startPc="268438713"/>
+        <entry arg="true" endPc="268438903" name="cx" stackId="2" startPc="268438713"/>
+        <entry arg="true" endPc="268438903" name="cy" stackId="3" startPc="268438713"/>
+        <entry arg="true" endPc="268438903" name="r" stackId="4" startPc="268438713"/>
+        <entry arg="true" endPc="268438903" name="p" stackId="5" startPc="268438713"/>
+        <entry arg="true" endPc="268438903" name="col" stackId="6" startPc="268438713"/>
+        <entry arg="true" endPc="268438903" name="pw" stackId="7" startPc="268438713"/>
+        <entry endPc="268438902" name="widths" stackId="8" startPc="268438716"/>
+        <entry endPc="268438902" name="f" stackId="9" startPc="268438716"/>
+        <entry endPc="268438845" name="i" stackId="10" startPc="268438775"/>
+        <entry arg="true" endPc="268438955" name="dc" stackId="1" startPc="268438904"/>
+        <entry arg="true" endPc="268438955" name="w" stackId="2" startPc="268438904"/>
+        <entry arg="true" endPc="268438955" name="h" stackId="3" startPc="268438904"/>
+        <entry arg="true" endPc="268438955" name="pct" stackId="4" startPc="268438904"/>
+        <entry endPc="268439057" name="a" stackId="1" startPc="268438959"/>
+        <entry endPc="268439057" name="it" stackId="2" startPc="268438959"/>
+        <entry endPc="268439057" name="s" stackId="3" startPc="268438959"/>
+        <entry arg="true" endPc="268439290" name="dc" stackId="1" startPc="268439058"/>
+        <entry arg="true" endPc="268439290" name="x" stackId="2" startPc="268439058"/>
+        <entry arg="true" endPc="268439290" name="y" stackId="3" startPc="268439058"/>
+        <entry arg="true" endPc="268439290" name="r" stackId="4" startPc="268439058"/>
+        <entry arg="true" endPc="268439290" name="id" stackId="5" startPc="268439058"/>
+        <entry arg="true" endPc="268439290" name="m" stackId="6" startPc="268439058"/>
+        <entry endPc="268439289" name="prog" stackId="7" startPc="268439061"/>
+        <entry endPc="268439289" name="txt" stackId="8" startPc="268439061"/>
+        <entry endPc="268439289" name="col" stackId="9" startPc="268439061"/>
+        <entry endPc="268439289" name="pw" stackId="10" startPc="268439061"/>
+        <entry endPc="268439289" name="f" stackId="11" startPc="268439061"/>
+        <entry arg="true" endPc="268440041" name="dc" stackId="1" startPc="268439291"/>
+        <entry arg="true" endPc="268440041" name="x0" stackId="2" startPc="268439291"/>
+        <entry arg="true" endPc="268440041" name="y0" stackId="3" startPc="268439291"/>
+        <entry arg="true" endPc="268440041" name="wd" stackId="4" startPc="268439291"/>
+        <entry arg="true" endPc="268440041" name="ht" stackId="5" startPc="268439291"/>
+        <entry arg="true" endPc="268440041" name="kind" stackId="6" startPc="268439291"/>
+        <entry arg="true" endPc="268440041" name="h" stackId="7" startPc="268439291"/>
+        <entry endPc="268440040" name="cols" stackId="8" startPc="268439294"/>
+        <entry endPc="268440040" name="col" stackId="9" startPc="268439294"/>
+        <entry endPc="268440040" name="vals" stackId="10" startPc="268439294"/>
+        <entry endPc="268440040" name="n" stackId="11" startPc="268439294"/>
+        <entry endPc="268439494" name="f" stackId="12" startPc="268439409"/>
+        <entry endPc="268440040" name="m" stackId="13" startPc="268439294"/>
+        <entry endPc="268440040" name="lo" stackId="14" startPc="268439294"/>
+        <entry endPc="268440040" name="hi" stackId="15" startPc="268439294"/>
+        <entry endPc="268439609" name="i" stackId="16" startPc="268439563"/>
+        <entry endPc="268439599" name="v" stackId="17" startPc="268439563"/>
+        <entry endPc="268440040" name="px" stackId="18" startPc="268439294"/>
+        <entry endPc="268440040" name="py" stackId="19" startPc="268439294"/>
+        <entry endPc="268439777" name="i" stackId="20" startPc="268439661"/>
+        <entry endPc="268439767" name="idx" stackId="21" startPc="268439661"/>
+        <entry endPc="268439767" name="fr" stackId="22" startPc="268439661"/>
+        <entry endPc="268440040" name="widths" stackId="23" startPc="268439294"/>
+        <entry endPc="268440040" name="fs" stackId="24" startPc="268439294"/>
+        <entry endPc="268439914" name="g" stackId="25" startPc="268439803"/>
+        <entry endPc="268439904" name="i" stackId="26" startPc="268439859"/>
+        <entry endPc="268440000" name="i" stackId="27" startPc="268439955"/>
+        <entry arg="true" endPc="268440084" name="key" stackId="1" startPc="268440042"/>
+        <entry arg="true" endPc="268440084" name="def" stackId="2" startPc="268440042"/>
+        <entry endPc="268440084" name="v" stackId="3" startPc="268440045"/>
+        <entry arg="true" endPc="268440136" name="i" stackId="1" startPc="268440085"/>
+        <entry endPc="268440136" name="keys" stackId="2" startPc="268440088"/>
+        <entry endPc="268440136" name="id" stackId="3" startPc="268440088"/>
+        <entry arg="true" endPc="268440433" name="dc" stackId="1" startPc="268440159"/>
+        <entry arg="true" endPc="268440433" name="x" stackId="2" startPc="268440159"/>
+        <entry arg="true" endPc="268440433" name="y" stackId="3" startPc="268440159"/>
+        <entry arg="true" endPc="268440433" name="k" stackId="4" startPc="268440159"/>
+        <entry endPc="268440432" name="d" stackId="5" startPc="268440162"/>
+        <entry endPc="268440432" name="i" stackId="6" startPc="268440311"/>
+        <entry arg="true" endPc="268440665" name="dc" stackId="1" startPc="268440434"/>
+        <entry arg="true" endPc="268440665" name="x" stackId="2" startPc="268440434"/>
+        <entry arg="true" endPc="268440665" name="y" stackId="3" startPc="268440434"/>
+        <entry arg="true" endPc="268440665" name="k" stackId="4" startPc="268440434"/>
+        <entry arg="true" endPc="268440665" name="col" stackId="5" startPc="268440434"/>
+        <entry arg="true" endPc="268440697" name="v" stackId="1" startPc="268440666"/>
+        <entry arg="true" endPc="268440697" name="k" stackId="2" startPc="268440666"/>
+        <entry endPc="268440697" name="r" stackId="3" startPc="268440669"/>
+        <entry arg="true" endPc="268442424" name="dc" stackId="1" startPc="268440698"/>
+        <entry arg="true" endPc="268442424" name="id" stackId="2" startPc="268440698"/>
+        <entry arg="true" endPc="268442424" name="x" stackId="3" startPc="268440698"/>
+        <entry arg="true" endPc="268442424" name="y" stackId="4" startPc="268440698"/>
+        <entry arg="true" endPc="268442424" name="s" stackId="5" startPc="268440698"/>
+        <entry arg="true" endPc="268442424" name="col" stackId="6" startPc="268440698"/>
+        <entry endPc="268442423" name="k" stackId="7" startPc="268440701"/>
+        <entry endPc="268442423" name="pw" stackId="8" startPc="268440701"/>
+        <entry arg="true" endPc="268442766" name="kind" stackId="1" startPc="268442425"/>
+        <entry endPc="268442766" name="out" stackId="2" startPc="268442428"/>
+        <entry endPc="268442766" name="dur" stackId="3" startPc="268442428"/>
+        <entry endPc="268442766" name="opts" stackId="4" startPc="268442428"/>
+        <entry endPc="268442766" name="it" stackId="5" startPc="268442428"/>
+        <entry endPc="268442766" name="s" stackId="6" startPc="268442428"/>
+        <entry arg="true" endPc="268443180" name="dc" stackId="1" startPc="268442767"/>
+        <entry arg="true" endPc="268443180" name="ids" stackId="2" startPc="268442767"/>
+        <entry arg="true" endPc="268443180" name="cx" stackId="3" startPc="268442767"/>
+        <entry arg="true" endPc="268443180" name="y" stackId="4" startPc="268442767"/>
+        <entry arg="true" endPc="268443180" name="s" stackId="5" startPc="268442767"/>
+        <entry arg="true" endPc="268443180" name="gap" stackId="6" startPc="268442767"/>
+        <entry arg="true" endPc="268443180" name="size" stackId="7" startPc="268442767"/>
+        <entry endPc="268443179" name="items" stackId="8" startPc="268442770"/>
+        <entry endPc="268443179" name="widths" stackId="9" startPc="268442770"/>
+        <entry endPc="268443179" name="total" stackId="10" startPc="268442770"/>
+        <entry endPc="268442949" name="i" stackId="11" startPc="268442797"/>
+        <entry endPc="268442939" name="it" stackId="12" startPc="268442797"/>
+        <entry endPc="268442939" name="txt" stackId="13" startPc="268442797"/>
+        <entry endPc="268442939" name="tf" stackId="14" startPc="268442797"/>
+        <entry endPc="268442939" name="wd" stackId="15" startPc="268442797"/>
+        <entry endPc="268443179" name="x" stackId="16" startPc="268442770"/>
+        <entry endPc="268443179" name="j" stackId="17" startPc="268443010"/>
+        <entry endPc="268443169" name="it2" stackId="18" startPc="268443010"/>
+        <entry endPc="268443169" name="tf2" stackId="19" startPc="268443010"/>
+        <entry arg="true" endPc="268443583" name="id" stackId="1" startPc="268443181"/>
+        <entry endPc="268443270" name="n" stackId="2" startPc="268443192"/>
+        <entry endPc="268443270" name="hasNotifications" stackId="3" startPc="268443192"/>
+        <entry endPc="268443469" name="kind" stackId="4" startPc="268443333"/>
+        <entry endPc="268443469" name="txt" stackId="5" startPc="268443333"/>
+        <entry endPc="268443448" name="c" stackId="6" startPc="268443370"/>
+        <entry endPc="268443540" name="b" stackId="7" startPc="268443481"/>
+        <entry endPc="268443583" name="m" stackId="8" startPc="268443184"/>
+        <entry arg="true" endPc="268443600" name="c" stackId="1" startPc="268443584"/>
+        <entry arg="true" endPc="268443600" name="v" stackId="2" startPc="268443584"/>
+        <entry arg="true" endPc="268443600" name="k" stackId="3" startPc="268443584"/>
+        <entry arg="true" endPc="268443751" name="dc" stackId="1" startPc="268443601"/>
+        <entry arg="true" endPc="268443751" name="txt" stackId="2" startPc="268443601"/>
+        <entry arg="true" endPc="268443751" name="style" stackId="3" startPc="268443601"/>
+        <entry arg="true" endPc="268443751" name="startSize" stackId="4" startPc="268443601"/>
+        <entry arg="true" endPc="268443751" name="maxW" stackId="5" startPc="268443601"/>
+        <entry arg="true" endPc="268443751" name="minSize" stackId="6" startPc="268443601"/>
+        <entry arg="true" endPc="268443751" name="fallback" stackId="7" startPc="268443601"/>
+        <entry endPc="268443751" name="f" stackId="8" startPc="268443604"/>
+        <entry endPc="268443751" name="size" stackId="9" startPc="268443604"/>
+        <entry arg="true" endPc="268443798" name="pct" stackId="1" startPc="268443752"/>
+        <entry arg="true" endPc="268443901" name="dc" stackId="1" startPc="268443799"/>
+        <entry arg="true" endPc="268443901" name="x" stackId="2" startPc="268443799"/>
+        <entry arg="true" endPc="268443901" name="y" stackId="3" startPc="268443799"/>
+        <entry arg="true" endPc="268443901" name="k" stackId="4" startPc="268443799"/>
+        <entry arg="true" endPc="268443901" name="p" stackId="5" startPc="268443799"/>
+        <entry endPc="268443900" name="pts" stackId="6" startPc="268443802"/>
+        <entry endPc="268443888" name="i" stackId="7" startPc="268443822"/>
+        <entry arg="true" endPc="268444099" name="dc" stackId="1" startPc="268443902"/>
+        <entry arg="true" endPc="268444099" name="w" stackId="2" startPc="268443902"/>
+        <entry arg="true" endPc="268444099" name="h" stackId="3" startPc="268443902"/>
+        <entry endPc="268444098" name="mult" stackId="4" startPc="268443905"/>
+        <entry endPc="268444098" name="fs" stackId="5" startPc="268443905"/>
+        <entry endPc="268444098" name="cols" stackId="6" startPc="268443905"/>
+        <entry endPc="268443974" name="i" stackId="7" startPc="268443934"/>
+        <entry endPc="268444098" name="k" stackId="8" startPc="268443986"/>
+        <entry endPc="268444088" name="i" stackId="9" startPc="268443997"/>
+        <entry endPc="268444078" name="g" stackId="10" startPc="268443997"/>
+        <entry arg="true" endPc="268444771" name="id" stackId="1" startPc="268444115"/>
+        <entry endPc="268444770" name="info" stackId="2" startPc="268444118"/>
+        <entry endPc="268444250" name="hr" stackId="3" startPc="268444195"/>
+        <entry endPc="268444472" name="km" stackId="4" startPc="268444417"/>
+        <entry endPc="268444564" name="am" stackId="5" startPc="268444493"/>
+        <entry endPc="268444630" name="bb" stackId="6" startPc="268444576"/>
+        <entry endPc="268444703" name="b" stackId="7" startPc="268444642"/>
+        <entry endPc="268444770" name="t" stackId="8" startPc="268444707"/>
+        <entry arg="true" endPc="268444813" name="style" stackId="1" startPc="268444772"/>
+        <entry arg="true" endPc="268444942" name="dc" stackId="1" startPc="268444814"/>
+        <entry arg="true" endPc="268444942" name="rx" stackId="2" startPc="268444814"/>
+        <entry arg="true" endPc="268444942" name="w" stackId="3" startPc="268444814"/>
+        <entry arg="true" endPc="268444942" name="h" stackId="4" startPc="268444814"/>
+        <entry endPc="268444941" name="kind" stackId="5" startPc="268444817"/>
+        <entry endPc="268444941" name="wd" stackId="6" startPc="268444873"/>
+        <entry arg="true" endPc="268445451" name="dc" stackId="1" startPc="268444943"/>
+        <entry endPc="268445450" name="w" stackId="2" startPc="268444946"/>
+        <entry endPc="268445450" name="h" stackId="3" startPc="268444946"/>
+        <entry endPc="268445450" name="rx" stackId="4" startPc="268444946"/>
+        <entry arg="true" endPc="268445529" name="v" stackId="1" startPc="268445452"/>
+        <entry arg="true" endPc="268445529" name="g" stackId="2" startPc="268445452"/>
+        <entry endPc="268445529" name="r" stackId="3" startPc="268445455"/>
+    </localVars>
+    <deviceInfo deviceVersion="eddc2840754f6d29c6c9a3ede43befdaadd25a09" partNumber="006-B4625-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ChSun"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ChartTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MetActive"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MetWeather"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ChStress"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MetBT"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MetBattery"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="FontClassicDigits"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MetCal"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="StatATitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Slot3Title"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MetTemp"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="StatBTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Top1Title"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ChElev"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MetDist"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MetBody"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MetHR"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Slot4Title"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Slot1Title"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MetSteps"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Top3Title"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BgGlowTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="FontRegular"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ChNone"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="FontBuiltin"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ChBody"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="FontCondBold"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MetFloors"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MetNotif"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="TimeFontTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ChHR"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MetNone"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Slot2Title"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="TextFontTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="FontCondLight"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Top2Title"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="49" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/Rez" offset="107" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/MinimalFaceApp" offset="151" parentId="globals" symbolId="MinimalFaceApp" type="class"/>
+        <dataEntry label="globals/MinimalFaceView" offset="213" parentId="globals" symbolId="MinimalFaceView" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="653" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="688" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435479" name="&lt;init&gt;" parent="Rez" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435491" name="&lt;init&gt;" parent="MinimalFaceApp" startPc="268435480">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435503" name="&lt;init&gt;" parent="MinimalFaceView" startPc="268435492">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435517" name="onSettingsChanged" parent="MinimalFaceApp" startPc="268435504">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435545" name="getInitialView" parent="MinimalFaceApp" startPc="268435518">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435560" name="initialize" parent="MinimalFaceApp" startPc="268435546">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268435641" name="&lt;globals/MinimalFaceView/&lt;&gt;fmtHM&gt;" parent="MinimalFaceView" startPc="268435561">
+            <param id="hour"/>
+            <param id="min"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268435710" name="&lt;globals/MinimalFaceView/&lt;&gt;ln&gt;" parent="MinimalFaceView" startPc="268435642">
+            <param id="dc"/>
+            <param id="x"/>
+            <param id="y"/>
+            <param id="k"/>
+            <param id="a"/>
+            <param id="b"/>
+            <param id="c"/>
+            <param id="d"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268435781" name="&lt;globals/MinimalFaceView/&lt;&gt;compact&gt;" parent="MinimalFaceView" startPc="268435711">
+            <param id="n"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268435981" name="&lt;globals/MinimalFaceView/&lt;&gt;drawTime&gt;" parent="MinimalFaceView" startPc="268435782">
+            <param id="dc"/>
+            <param id="x"/>
+            <param id="y"/>
+            <param id="w"/>
+            <param id="h"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436056" name="&lt;globals/MinimalFaceView/&lt;&gt;dim&gt;" parent="MinimalFaceView" startPc="268435982">
+            <param id="c"/>
+            <param id="f"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436174" name="&lt;globals/MinimalFaceView/&lt;&gt;getBodyBattery&gt;" parent="MinimalFaceView" startPc="268436057">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436273" name="&lt;globals/MinimalFaceView/&lt;&gt;drawProgressArc&gt;" parent="MinimalFaceView" startPc="268436175">
+            <param id="dc"/>
+            <param id="cx"/>
+            <param id="cy"/>
+            <param id="r"/>
+            <param id="p"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437026" name="&lt;globals/MinimalFaceView/&lt;&gt;drawWeatherIcon&gt;" parent="MinimalFaceView" startPc="268436274">
+            <param id="dc"/>
+            <param id="kind"/>
+            <param id="x"/>
+            <param id="y"/>
+            <param id="s"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437139" name="&lt;globals/MinimalFaceView/&lt;&gt;neonRing&gt;" parent="MinimalFaceView" startPc="268437027">
+            <param id="dc"/>
+            <param id="x"/>
+            <param id="y"/>
+            <param id="r"/>
+            <param id="p"/>
+            <param id="col"/>
+            <param id="pw"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437281" name="&lt;globals/MinimalFaceView/&lt;&gt;timeFont&gt;" parent="MinimalFaceView" startPc="268437140">
+            <param id="dc"/>
+            <param id="txt"/>
+            <param id="h"/>
+            <param id="maxW"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437891" name="&lt;globals/MinimalFaceView/&lt;&gt;drawSunTimes&gt;" parent="MinimalFaceView" startPc="268437282">
+            <param id="dc"/>
+            <param id="rx"/>
+            <param id="w"/>
+            <param id="h"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437913" name="onEnterSleep" parent="MinimalFaceView" startPc="268437892">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438164" name="&lt;globals/MinimalFaceView/&lt;&gt;ringGeom&gt;" parent="MinimalFaceView" startPc="268437914">
+            <param id="w"/>
+            <param id="h"/>
+            <param id="i"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438201" name="&lt;globals/MinimalFaceView/&lt;&gt;textFont&gt;" parent="MinimalFaceView" startPc="268438165">
+            <param id="dc"/>
+            <param id="txt"/>
+            <param id="size"/>
+            <param id="maxW"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438366" name="&lt;globals/MinimalFaceView/&lt;&gt;drawDate&gt;" parent="MinimalFaceView" startPc="268438202">
+            <param id="dc"/>
+            <param id="x"/>
+            <param id="y"/>
+            <param id="w"/>
+            <param id="h"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438450" name="&lt;globals/MinimalFaceView/&lt;&gt;getTemperature&gt;" parent="MinimalFaceView" startPc="268438367">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438622" name="&lt;globals/MinimalFaceView/&lt;&gt;classify&gt;" parent="MinimalFaceView" startPc="268438451">
+            <param id="c"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438712" name="&lt;globals/MinimalFaceView/&lt;&gt;drawSlots&gt;" parent="MinimalFaceView" startPc="268438623">
+            <param id="dc"/>
+            <param id="w"/>
+            <param id="h"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438903" name="&lt;globals/MinimalFaceView/&lt;&gt;glowArc&gt;" parent="MinimalFaceView" startPc="268438713">
+            <param id="dc"/>
+            <param id="cx"/>
+            <param id="cy"/>
+            <param id="r"/>
+            <param id="p"/>
+            <param id="col"/>
+            <param id="pw"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438955" name="&lt;globals/MinimalFaceView/&lt;&gt;drawBatteryRing&gt;" parent="MinimalFaceView" startPc="268438904">
+            <param id="dc"/>
+            <param id="w"/>
+            <param id="h"/>
+            <param id="pct"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268439057" name="&lt;globals/MinimalFaceView/&lt;&gt;getHeartRate&gt;" parent="MinimalFaceView" startPc="268438956">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268439290" name="&lt;globals/MinimalFaceView/&lt;&gt;drawSlot&gt;" parent="MinimalFaceView" startPc="268439058">
+            <param id="dc"/>
+            <param id="x"/>
+            <param id="y"/>
+            <param id="r"/>
+            <param id="id"/>
+            <param id="m"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268440041" name="&lt;globals/MinimalFaceView/&lt;&gt;drawChart&gt;" parent="MinimalFaceView" startPc="268439291">
+            <param id="dc"/>
+            <param id="x0"/>
+            <param id="y0"/>
+            <param id="wd"/>
+            <param id="ht"/>
+            <param id="kind"/>
+            <param id="h"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268440084" name="&lt;globals/MinimalFaceView/&lt;&gt;prop&gt;" parent="MinimalFaceView" startPc="268440042">
+            <param id="key"/>
+            <param id="def"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268440136" name="&lt;globals/MinimalFaceView/&lt;&gt;slotId&gt;" parent="MinimalFaceView" startPc="268440085">
+            <param id="i"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440158" name="onExitSleep" parent="MinimalFaceView" startPc="268440137">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268440433" name="&lt;globals/MinimalFaceView/&lt;&gt;sunShape&gt;" parent="MinimalFaceView" startPc="268440159">
+            <param id="dc"/>
+            <param id="x"/>
+            <param id="y"/>
+            <param id="k"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268440665" name="&lt;globals/MinimalFaceView/&lt;&gt;cloudShape&gt;" parent="MinimalFaceView" startPc="268440434">
+            <param id="dc"/>
+            <param id="x"/>
+            <param id="y"/>
+            <param id="k"/>
+            <param id="col"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268440697" name="&lt;globals/MinimalFaceView/&lt;&gt;sz&gt;" parent="MinimalFaceView" startPc="268440666">
+            <param id="v"/>
+            <param id="k"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268442424" name="&lt;globals/MinimalFaceView/&lt;&gt;drawIcon&gt;" parent="MinimalFaceView" startPc="268440698">
+            <param id="dc"/>
+            <param id="id"/>
+            <param id="x"/>
+            <param id="y"/>
+            <param id="s"/>
+            <param id="col"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268442766" name="&lt;globals/MinimalFaceView/&lt;&gt;readSeries&gt;" parent="MinimalFaceView" startPc="268442425">
+            <param id="kind"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268443180" name="&lt;globals/MinimalFaceView/&lt;&gt;drawRow&gt;" parent="MinimalFaceView" startPc="268442767">
+            <param id="dc"/>
+            <param id="ids"/>
+            <param id="cx"/>
+            <param id="y"/>
+            <param id="s"/>
+            <param id="gap"/>
+            <param id="size"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268443583" name="&lt;globals/MinimalFaceView/&lt;&gt;itemOf&gt;" parent="MinimalFaceView" startPc="268443181">
+            <param id="id"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268443600" name="&lt;globals/MinimalFaceView/&lt;&gt;u&gt;" parent="MinimalFaceView" startPc="268443584">
+            <param id="c"/>
+            <param id="v"/>
+            <param id="k"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268443751" name="&lt;globals/MinimalFaceView/&lt;&gt;pickFont&gt;" parent="MinimalFaceView" startPc="268443601">
+            <param id="dc"/>
+            <param id="txt"/>
+            <param id="style"/>
+            <param id="startSize"/>
+            <param id="maxW"/>
+            <param id="minSize"/>
+            <param id="fallback"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268443798" name="&lt;globals/MinimalFaceView/&lt;&gt;batteryColor&gt;" parent="MinimalFaceView" startPc="268443752">
+            <param id="pct"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268443901" name="&lt;globals/MinimalFaceView/&lt;&gt;poly&gt;" parent="MinimalFaceView" startPc="268443799">
+            <param id="dc"/>
+            <param id="x"/>
+            <param id="y"/>
+            <param id="k"/>
+            <param id="p"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268444099" name="&lt;globals/MinimalFaceView/&lt;&gt;drawHaze&gt;" parent="MinimalFaceView" startPc="268443902">
+            <param id="dc"/>
+            <param id="w"/>
+            <param id="h"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268444114" name="initialize" parent="MinimalFaceView" startPc="268444100">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268444771" name="&lt;globals/MinimalFaceView/&lt;&gt;getMetric&gt;" parent="MinimalFaceView" startPc="268444115">
+            <param id="id"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268444813" name="&lt;globals/MinimalFaceView/&lt;&gt;faces&gt;" parent="MinimalFaceView" startPc="268444772">
+            <param id="style"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268444942" name="&lt;globals/MinimalFaceView/&lt;&gt;drawBottom&gt;" parent="MinimalFaceView" startPc="268444814">
+            <param id="dc"/>
+            <param id="rx"/>
+            <param id="w"/>
+            <param id="h"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268445451" name="onUpdate" parent="MinimalFaceView" startPc="268444943">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268445529" name="&lt;globals/MinimalFaceView/&lt;&gt;ratio&gt;" parent="MinimalFaceView" startPc="268445452">
+            <param id="v"/>
+            <param id="g"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

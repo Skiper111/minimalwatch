@@ -1,0 +1,586 @@
+{
+  "settings" : [ {
+    "key" : "Slot1",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "Slot1Title",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "MetSteps",
+      "value" : 0
+    }, {
+      "display" : "MetHR",
+      "value" : 1
+    }, {
+      "display" : "MetCal",
+      "value" : 2
+    }, {
+      "display" : "MetFloors",
+      "value" : 3
+    }, {
+      "display" : "MetDist",
+      "value" : 4
+    }, {
+      "display" : "MetActive",
+      "value" : 5
+    }, {
+      "display" : "MetBody",
+      "value" : 6
+    }, {
+      "display" : "MetTemp",
+      "value" : 7
+    }, {
+      "display" : "MetBattery",
+      "value" : 11
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "Slot2",
+    "valueType" : "number",
+    "defaultValue" : 3,
+    "configTitle" : "Slot2Title",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "MetSteps",
+      "value" : 0
+    }, {
+      "display" : "MetHR",
+      "value" : 1
+    }, {
+      "display" : "MetCal",
+      "value" : 2
+    }, {
+      "display" : "MetFloors",
+      "value" : 3
+    }, {
+      "display" : "MetDist",
+      "value" : 4
+    }, {
+      "display" : "MetActive",
+      "value" : 5
+    }, {
+      "display" : "MetBody",
+      "value" : 6
+    }, {
+      "display" : "MetTemp",
+      "value" : 7
+    }, {
+      "display" : "MetBattery",
+      "value" : 11
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "Slot3",
+    "valueType" : "number",
+    "defaultValue" : 5,
+    "configTitle" : "Slot3Title",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "MetSteps",
+      "value" : 0
+    }, {
+      "display" : "MetHR",
+      "value" : 1
+    }, {
+      "display" : "MetCal",
+      "value" : 2
+    }, {
+      "display" : "MetFloors",
+      "value" : 3
+    }, {
+      "display" : "MetDist",
+      "value" : 4
+    }, {
+      "display" : "MetActive",
+      "value" : 5
+    }, {
+      "display" : "MetBody",
+      "value" : 6
+    }, {
+      "display" : "MetTemp",
+      "value" : 7
+    }, {
+      "display" : "MetBattery",
+      "value" : 11
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "Slot4",
+    "valueType" : "number",
+    "defaultValue" : 6,
+    "configTitle" : "Slot4Title",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "MetSteps",
+      "value" : 0
+    }, {
+      "display" : "MetHR",
+      "value" : 1
+    }, {
+      "display" : "MetCal",
+      "value" : 2
+    }, {
+      "display" : "MetFloors",
+      "value" : 3
+    }, {
+      "display" : "MetDist",
+      "value" : 4
+    }, {
+      "display" : "MetActive",
+      "value" : 5
+    }, {
+      "display" : "MetBody",
+      "value" : 6
+    }, {
+      "display" : "MetTemp",
+      "value" : 7
+    }, {
+      "display" : "MetBattery",
+      "value" : 11
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "Top1",
+    "valueType" : "number",
+    "defaultValue" : 8,
+    "configTitle" : "Top1Title",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "MetSteps",
+      "value" : 0
+    }, {
+      "display" : "MetHR",
+      "value" : 1
+    }, {
+      "display" : "MetCal",
+      "value" : 2
+    }, {
+      "display" : "MetFloors",
+      "value" : 3
+    }, {
+      "display" : "MetDist",
+      "value" : 4
+    }, {
+      "display" : "MetActive",
+      "value" : 5
+    }, {
+      "display" : "MetBody",
+      "value" : 6
+    }, {
+      "display" : "MetTemp",
+      "value" : 7
+    }, {
+      "display" : "MetNotif",
+      "value" : 8
+    }, {
+      "display" : "MetBT",
+      "value" : 9
+    }, {
+      "display" : "MetWeather",
+      "value" : 10
+    }, {
+      "display" : "MetBattery",
+      "value" : 11
+    }, {
+      "display" : "MetNone",
+      "value" : 12
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "Top2",
+    "valueType" : "number",
+    "defaultValue" : 9,
+    "configTitle" : "Top2Title",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "MetSteps",
+      "value" : 0
+    }, {
+      "display" : "MetHR",
+      "value" : 1
+    }, {
+      "display" : "MetCal",
+      "value" : 2
+    }, {
+      "display" : "MetFloors",
+      "value" : 3
+    }, {
+      "display" : "MetDist",
+      "value" : 4
+    }, {
+      "display" : "MetActive",
+      "value" : 5
+    }, {
+      "display" : "MetBody",
+      "value" : 6
+    }, {
+      "display" : "MetTemp",
+      "value" : 7
+    }, {
+      "display" : "MetNotif",
+      "value" : 8
+    }, {
+      "display" : "MetBT",
+      "value" : 9
+    }, {
+      "display" : "MetWeather",
+      "value" : 10
+    }, {
+      "display" : "MetBattery",
+      "value" : 11
+    }, {
+      "display" : "MetNone",
+      "value" : 12
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "Top3",
+    "valueType" : "number",
+    "defaultValue" : 10,
+    "configTitle" : "Top3Title",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "MetSteps",
+      "value" : 0
+    }, {
+      "display" : "MetHR",
+      "value" : 1
+    }, {
+      "display" : "MetCal",
+      "value" : 2
+    }, {
+      "display" : "MetFloors",
+      "value" : 3
+    }, {
+      "display" : "MetDist",
+      "value" : 4
+    }, {
+      "display" : "MetActive",
+      "value" : 5
+    }, {
+      "display" : "MetBody",
+      "value" : 6
+    }, {
+      "display" : "MetTemp",
+      "value" : 7
+    }, {
+      "display" : "MetNotif",
+      "value" : 8
+    }, {
+      "display" : "MetBT",
+      "value" : 9
+    }, {
+      "display" : "MetWeather",
+      "value" : 10
+    }, {
+      "display" : "MetBattery",
+      "value" : 11
+    }, {
+      "display" : "MetNone",
+      "value" : 12
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "StatA",
+    "valueType" : "number",
+    "defaultValue" : 2,
+    "configTitle" : "StatATitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "MetSteps",
+      "value" : 0
+    }, {
+      "display" : "MetHR",
+      "value" : 1
+    }, {
+      "display" : "MetCal",
+      "value" : 2
+    }, {
+      "display" : "MetFloors",
+      "value" : 3
+    }, {
+      "display" : "MetDist",
+      "value" : 4
+    }, {
+      "display" : "MetActive",
+      "value" : 5
+    }, {
+      "display" : "MetBody",
+      "value" : 6
+    }, {
+      "display" : "MetTemp",
+      "value" : 7
+    }, {
+      "display" : "MetNotif",
+      "value" : 8
+    }, {
+      "display" : "MetBT",
+      "value" : 9
+    }, {
+      "display" : "MetWeather",
+      "value" : 10
+    }, {
+      "display" : "MetBattery",
+      "value" : 11
+    }, {
+      "display" : "MetNone",
+      "value" : 12
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "StatB",
+    "valueType" : "number",
+    "defaultValue" : 1,
+    "configTitle" : "StatBTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "MetSteps",
+      "value" : 0
+    }, {
+      "display" : "MetHR",
+      "value" : 1
+    }, {
+      "display" : "MetCal",
+      "value" : 2
+    }, {
+      "display" : "MetFloors",
+      "value" : 3
+    }, {
+      "display" : "MetDist",
+      "value" : 4
+    }, {
+      "display" : "MetActive",
+      "value" : 5
+    }, {
+      "display" : "MetBody",
+      "value" : 6
+    }, {
+      "display" : "MetTemp",
+      "value" : 7
+    }, {
+      "display" : "MetNotif",
+      "value" : 8
+    }, {
+      "display" : "MetBT",
+      "value" : 9
+    }, {
+      "display" : "MetWeather",
+      "value" : 10
+    }, {
+      "display" : "MetBattery",
+      "value" : 11
+    }, {
+      "display" : "MetNone",
+      "value" : 12
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "Chart",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "ChartTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "ChHR",
+      "value" : 0
+    }, {
+      "display" : "ChBody",
+      "value" : 1
+    }, {
+      "display" : "ChStress",
+      "value" : 2
+    }, {
+      "display" : "ChElev",
+      "value" : 3
+    }, {
+      "display" : "ChSun",
+      "value" : 4
+    }, {
+      "display" : "ChNone",
+      "value" : 5
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "BgGlow",
+    "valueType" : "boolean",
+    "defaultValue" : true,
+    "configTitle" : "BgGlowTitle",
+    "configPrompt" : null,
+    "configType" : "boolean",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "TimeFont",
+    "valueType" : "number",
+    "defaultValue" : 1,
+    "configTitle" : "TimeFontTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "FontCondBold",
+      "value" : 1
+    }, {
+      "display" : "FontRegular",
+      "value" : 2
+    }, {
+      "display" : "FontCondLight",
+      "value" : 3
+    }, {
+      "display" : "FontClassicDigits",
+      "value" : 0
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "TextFont",
+    "valueType" : "number",
+    "defaultValue" : 1,
+    "configTitle" : "TextFontTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "FontCondBold",
+      "value" : 1
+    }, {
+      "display" : "FontRegular",
+      "value" : 2
+    }, {
+      "display" : "FontCondLight",
+      "value" : 3
+    }, {
+      "display" : "FontBuiltin",
+      "value" : 0
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  } ],
+  "supportsLiveValidation" : false,
+  "languages" : {
+    "valyrian" : {
+      "FontCondLight" : "Condensed light",
+      "MetSteps" : "Steps",
+      "StatBTitle" : "Under the time: item 2",
+      "AppName" : "Neon Minimal",
+      "Top2Title" : "Top row: item 2",
+      "ChElev" : "Elevation (last 12 h)",
+      "Slot4Title" : "Ring 4 (bottom)",
+      "MetTemp" : "Temperature",
+      "MetNotif" : "Notifications",
+      "Slot1Title" : "Ring 1 (top)",
+      "BgGlowTitle" : "Soft colour glow in the background",
+      "FontClassicDigits" : "Garmin classic digits",
+      "MetCal" : "Calories",
+      "ChartTitle" : "Bottom chart",
+      "MetFloors" : "Floors climbed",
+      "MetWeather" : "Weather + temperature",
+      "MetDist" : "Distance (km)",
+      "TimeFontTitle" : "Time font",
+      "MetBT" : "Bluetooth",
+      "Slot2Title" : "Ring 2",
+      "Top1Title" : "Top row: item 1",
+      "TextFontTitle" : "Text font (date, numbers)",
+      "MetBody" : "Body Battery",
+      "FontRegular" : "Regular",
+      "ChSun" : "Sunrise / Sunset",
+      "MetBattery" : "Battery",
+      "ChStress" : "Stress (last 12 h)",
+      "MetHR" : "Heart rate",
+      "ChBody" : "Body Battery (last 12 h)",
+      "ChNone" : "Hidden",
+      "ChHR" : "Heart rate (last 3 h)",
+      "FontCondBold" : "Condensed bold",
+      "MetActive" : "Active minutes (week)",
+      "Top3Title" : "Top row: item 3",
+      "MetNone" : "(empty)",
+      "StatATitle" : "Under the time: item 1",
+      "FontBuiltin" : "Garmin built-in",
+      "Slot3Title" : "Ring 3"
+    }
+  }
+}

@@ -1,0 +1,170 @@
+<resources>
+    <settings>
+        <setting propertyKey="@Properties.Slot1" title="@Strings.Slot1Title">
+            <settingConfig type="list">
+                <listEntry value="0">@Strings.MetSteps</listEntry>
+                <listEntry value="1">@Strings.MetHR</listEntry>
+                <listEntry value="2">@Strings.MetCal</listEntry>
+                <listEntry value="3">@Strings.MetFloors</listEntry>
+                <listEntry value="4">@Strings.MetDist</listEntry>
+                <listEntry value="5">@Strings.MetActive</listEntry>
+                <listEntry value="6">@Strings.MetBody</listEntry>
+                <listEntry value="7">@Strings.MetTemp</listEntry>
+                <listEntry value="11">@Strings.MetBattery</listEntry>
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.Slot2" title="@Strings.Slot2Title">
+            <settingConfig type="list">
+                <listEntry value="0">@Strings.MetSteps</listEntry>
+                <listEntry value="1">@Strings.MetHR</listEntry>
+                <listEntry value="2">@Strings.MetCal</listEntry>
+                <listEntry value="3">@Strings.MetFloors</listEntry>
+                <listEntry value="4">@Strings.MetDist</listEntry>
+                <listEntry value="5">@Strings.MetActive</listEntry>
+                <listEntry value="6">@Strings.MetBody</listEntry>
+                <listEntry value="7">@Strings.MetTemp</listEntry>
+                <listEntry value="11">@Strings.MetBattery</listEntry>
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.Slot3" title="@Strings.Slot3Title">
+            <settingConfig type="list">
+                <listEntry value="0">@Strings.MetSteps</listEntry>
+                <listEntry value="1">@Strings.MetHR</listEntry>
+                <listEntry value="2">@Strings.MetCal</listEntry>
+                <listEntry value="3">@Strings.MetFloors</listEntry>
+                <listEntry value="4">@Strings.MetDist</listEntry>
+                <listEntry value="5">@Strings.MetActive</listEntry>
+                <listEntry value="6">@Strings.MetBody</listEntry>
+                <listEntry value="7">@Strings.MetTemp</listEntry>
+                <listEntry value="11">@Strings.MetBattery</listEntry>
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.Slot4" title="@Strings.Slot4Title">
+            <settingConfig type="list">
+                <listEntry value="0">@Strings.MetSteps</listEntry>
+                <listEntry value="1">@Strings.MetHR</listEntry>
+                <listEntry value="2">@Strings.MetCal</listEntry>
+                <listEntry value="3">@Strings.MetFloors</listEntry>
+                <listEntry value="4">@Strings.MetDist</listEntry>
+                <listEntry value="5">@Strings.MetActive</listEntry>
+                <listEntry value="6">@Strings.MetBody</listEntry>
+                <listEntry value="7">@Strings.MetTemp</listEntry>
+                <listEntry value="11">@Strings.MetBattery</listEntry>
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.Top1" title="@Strings.Top1Title">
+            <settingConfig type="list">
+                <listEntry value="0">@Strings.MetSteps</listEntry>
+                <listEntry value="1">@Strings.MetHR</listEntry>
+                <listEntry value="2">@Strings.MetCal</listEntry>
+                <listEntry value="3">@Strings.MetFloors</listEntry>
+                <listEntry value="4">@Strings.MetDist</listEntry>
+                <listEntry value="5">@Strings.MetActive</listEntry>
+                <listEntry value="6">@Strings.MetBody</listEntry>
+                <listEntry value="7">@Strings.MetTemp</listEntry>
+                <listEntry value="8">@Strings.MetNotif</listEntry>
+                <listEntry value="9">@Strings.MetBT</listEntry>
+                <listEntry value="10">@Strings.MetWeather</listEntry>
+                <listEntry value="11">@Strings.MetBattery</listEntry>
+                <listEntry value="12">@Strings.MetNone</listEntry>
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.Top2" title="@Strings.Top2Title">
+            <settingConfig type="list">
+                <listEntry value="0">@Strings.MetSteps</listEntry>
+                <listEntry value="1">@Strings.MetHR</listEntry>
+                <listEntry value="2">@Strings.MetCal</listEntry>
+                <listEntry value="3">@Strings.MetFloors</listEntry>
+                <listEntry value="4">@Strings.MetDist</listEntry>
+                <listEntry value="5">@Strings.MetActive</listEntry>
+                <listEntry value="6">@Strings.MetBody</listEntry>
+                <listEntry value="7">@Strings.MetTemp</listEntry>
+                <listEntry value="8">@Strings.MetNotif</listEntry>
+                <listEntry value="9">@Strings.MetBT</listEntry>
+                <listEntry value="10">@Strings.MetWeather</listEntry>
+                <listEntry value="11">@Strings.MetBattery</listEntry>
+                <listEntry value="12">@Strings.MetNone</listEntry>
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.Top3" title="@Strings.Top3Title">
+            <settingConfig type="list">
+                <listEntry value="0">@Strings.MetSteps</listEntry>
+                <listEntry value="1">@Strings.MetHR</listEntry>
+                <listEntry value="2">@Strings.MetCal</listEntry>
+                <listEntry value="3">@Strings.MetFloors</listEntry>
+                <listEntry value="4">@Strings.MetDist</listEntry>
+                <listEntry value="5">@Strings.MetActive</listEntry>
+                <listEntry value="6">@Strings.MetBody</listEntry>
+                <listEntry value="7">@Strings.MetTemp</listEntry>
+                <listEntry value="8">@Strings.MetNotif</listEntry>
+                <listEntry value="9">@Strings.MetBT</listEntry>
+                <listEntry value="10">@Strings.MetWeather</listEntry>
+                <listEntry value="11">@Strings.MetBattery</listEntry>
+                <listEntry value="12">@Strings.MetNone</listEntry>
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.StatA" title="@Strings.StatATitle">
+            <settingConfig type="list">
+                <listEntry value="0">@Strings.MetSteps</listEntry>
+                <listEntry value="1">@Strings.MetHR</listEntry>
+                <listEntry value="2">@Strings.MetCal</listEntry>
+                <listEntry value="3">@Strings.MetFloors</listEntry>
+                <listEntry value="4">@Strings.MetDist</listEntry>
+                <listEntry value="5">@Strings.MetActive</listEntry>
+                <listEntry value="6">@Strings.MetBody</listEntry>
+                <listEntry value="7">@Strings.MetTemp</listEntry>
+                <listEntry value="8">@Strings.MetNotif</listEntry>
+                <listEntry value="9">@Strings.MetBT</listEntry>
+                <listEntry value="10">@Strings.MetWeather</listEntry>
+                <listEntry value="11">@Strings.MetBattery</listEntry>
+                <listEntry value="12">@Strings.MetNone</listEntry>
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.StatB" title="@Strings.StatBTitle">
+            <settingConfig type="list">
+                <listEntry value="0">@Strings.MetSteps</listEntry>
+                <listEntry value="1">@Strings.MetHR</listEntry>
+                <listEntry value="2">@Strings.MetCal</listEntry>
+                <listEntry value="3">@Strings.MetFloors</listEntry>
+                <listEntry value="4">@Strings.MetDist</listEntry>
+                <listEntry value="5">@Strings.MetActive</listEntry>
+                <listEntry value="6">@Strings.MetBody</listEntry>
+                <listEntry value="7">@Strings.MetTemp</listEntry>
+                <listEntry value="8">@Strings.MetNotif</listEntry>
+                <listEntry value="9">@Strings.MetBT</listEntry>
+                <listEntry value="10">@Strings.MetWeather</listEntry>
+                <listEntry value="11">@Strings.MetBattery</listEntry>
+                <listEntry value="12">@Strings.MetNone</listEntry>
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.Chart" title="@Strings.ChartTitle">
+            <settingConfig type="list">
+                <listEntry value="0">@Strings.ChHR</listEntry>
+                <listEntry value="1">@Strings.ChBody</listEntry>
+                <listEntry value="2">@Strings.ChStress</listEntry>
+                <listEntry value="3">@Strings.ChElev</listEntry>
+                <listEntry value="4">@Strings.ChSun</listEntry>
+                <listEntry value="5">@Strings.ChNone</listEntry>
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.BgGlow" title="@Strings.BgGlowTitle">
+            <settingConfig type="boolean"/>
+        </setting>
+        <setting propertyKey="@Properties.TimeFont" title="@Strings.TimeFontTitle">
+            <settingConfig type="list">
+                <listEntry value="1">@Strings.FontCondBold</listEntry>
+                <listEntry value="2">@Strings.FontRegular</listEntry>
+                <listEntry value="3">@Strings.FontCondLight</listEntry>
+                <listEntry value="0">@Strings.FontClassicDigits</listEntry>
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.TextFont" title="@Strings.TextFontTitle">
+            <settingConfig type="list">
+                <listEntry value="1">@Strings.FontCondBold</listEntry>
+                <listEntry value="2">@Strings.FontRegular</listEntry>
+                <listEntry value="3">@Strings.FontCondLight</listEntry>
+                <listEntry value="0">@Strings.FontBuiltin</listEntry>
+            </settingConfig>
+        </setting>
+    </settings>
+</resources>
