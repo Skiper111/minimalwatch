@@ -67,6 +67,7 @@
                 <listEntry value="10">@Strings.MetWeather</listEntry>
                 <listEntry value="11">@Strings.MetBattery</listEntry>
                 <listEntry value="12">@Strings.MetNone</listEntry>
+                <listEntry value="13">@Strings.MetAlarm</listEntry>
             </settingConfig>
         </setting>
         <setting propertyKey="@Properties.Top2" title="@Strings.Top2Title">
@@ -84,6 +85,7 @@
                 <listEntry value="10">@Strings.MetWeather</listEntry>
                 <listEntry value="11">@Strings.MetBattery</listEntry>
                 <listEntry value="12">@Strings.MetNone</listEntry>
+                <listEntry value="13">@Strings.MetAlarm</listEntry>
             </settingConfig>
         </setting>
         <setting propertyKey="@Properties.Top3" title="@Strings.Top3Title">
@@ -100,6 +102,25 @@
                 <listEntry value="9">@Strings.MetBT</listEntry>
                 <listEntry value="10">@Strings.MetWeather</listEntry>
                 <listEntry value="11">@Strings.MetBattery</listEntry>
+                <listEntry value="12">@Strings.MetNone</listEntry>
+                <listEntry value="13">@Strings.MetAlarm</listEntry>
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.Top4" title="@Strings.Top4Title">
+            <settingConfig type="list">
+                <listEntry value="0">@Strings.MetSteps</listEntry>
+                <listEntry value="1">@Strings.MetHR</listEntry>
+                <listEntry value="2">@Strings.MetCal</listEntry>
+                <listEntry value="3">@Strings.MetFloors</listEntry>
+                <listEntry value="4">@Strings.MetDist</listEntry>
+                <listEntry value="5">@Strings.MetActive</listEntry>
+                <listEntry value="6">@Strings.MetBody</listEntry>
+                <listEntry value="7">@Strings.MetTemp</listEntry>
+                <listEntry value="8">@Strings.MetNotif</listEntry>
+                <listEntry value="9">@Strings.MetBT</listEntry>
+                <listEntry value="10">@Strings.MetWeather</listEntry>
+                <listEntry value="11">@Strings.MetBattery</listEntry>
+                <listEntry value="13">@Strings.MetAlarm</listEntry>
                 <listEntry value="12">@Strings.MetNone</listEntry>
             </settingConfig>
         </setting>
@@ -118,6 +139,7 @@
                 <listEntry value="10">@Strings.MetWeather</listEntry>
                 <listEntry value="11">@Strings.MetBattery</listEntry>
                 <listEntry value="12">@Strings.MetNone</listEntry>
+                <listEntry value="13">@Strings.MetAlarm</listEntry>
             </settingConfig>
         </setting>
         <setting propertyKey="@Properties.StatB" title="@Strings.StatBTitle">
@@ -135,6 +157,7 @@
                 <listEntry value="10">@Strings.MetWeather</listEntry>
                 <listEntry value="11">@Strings.MetBattery</listEntry>
                 <listEntry value="12">@Strings.MetNone</listEntry>
+                <listEntry value="13">@Strings.MetAlarm</listEntry>
             </settingConfig>
         </setting>
         <setting propertyKey="@Properties.Chart" title="@Strings.ChartTitle">
@@ -147,6 +170,12 @@
                 <listEntry value="5">@Strings.ChNone</listEntry>
             </settingConfig>
         </setting>
+        <setting propertyKey="@Properties.Lat" title="@Strings.LatTitle">
+            <settingConfig type="numeric" min="-90" max="90"/>
+        </setting>
+        <setting propertyKey="@Properties.Lon" title="@Strings.LonTitle">
+            <settingConfig type="numeric" min="-180" max="180"/>
+        </setting>
         <setting propertyKey="@Properties.BgGlow" title="@Strings.BgGlowTitle">
             <settingConfig type="boolean"/>
         </setting>
@@ -156,6 +185,11 @@
                 <listEntry value="2">@Strings.FontRegular</listEntry>
                 <listEntry value="3">@Strings.FontCondLight</listEntry>
                 <listEntry value="0">@Strings.FontClassicDigits</listEntry>
+                <listEntry value="4">@Strings.FontBionicBold</listEntry>
+                <listEntry value="5">@Strings.FontBionicRegular</listEntry>
+                <listEntry value="6">@Strings.FontSwiss</listEntry>
+                <listEntry value="8">@Strings.FontGarminThaiHot</listEntry>
+                <listEntry value="9">@Strings.FontGarminHot</listEntry>
             </settingConfig>
         </setting>
         <setting propertyKey="@Properties.TextFont" title="@Strings.TextFontTitle">

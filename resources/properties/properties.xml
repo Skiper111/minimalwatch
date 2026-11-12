@@ -7,11 +7,14 @@
         <property id="Top1" type="number">8</property>
         <property id="Top2" type="number">9</property>
         <property id="Top3" type="number">10</property>
+        <property id="Top4" type="number">13</property>
         <property id="StatA" type="number">2</property>
         <property id="StatB" type="number">1</property>
-        <property id="Chart" type="number">0</property>
+        <property id="Chart" type="number">1</property>
         <property id="BgGlow" type="boolean">true</property>
         <property id="TimeFont" type="number">1</property>
         <property id="TextFont" type="number">1</property>
+        <property id="Lat" type="float">50.45</property>
+        <property id="Lon" type="float">30.52</property>
     </properties>
 </resources>

@@ -7,12 +7,14 @@
     <string id="Top1Title">Top row: item 1</string>
     <string id="Top2Title">Top row: item 2</string>
     <string id="Top3Title">Top row: item 3</string>
+    <string id="Top4Title">Top grid: item 4</string>
     <string id="StatATitle">Under the time: item 1</string>
     <string id="StatBTitle">Under the time: item 2</string>
     <string id="ChartTitle">Bottom chart</string>
     <string id="BgGlowTitle">Soft colour glow in the background</string>
     <string id="TimeFontTitle">Time font</string>
     <string id="TextFontTitle">Text font (date, numbers)</string>
+    <string id="MetAlarm">Alarm</string>
     <string id="MetSteps">Steps</string>
     <string id="MetHR">Heart rate</string>
     <string id="MetCal">Calories</string>
@@ -37,4 +39,11 @@
     <string id="FontCondLight">Condensed light</string>
     <string id="FontClassicDigits">Garmin classic digits</string>
     <string id="FontBuiltin">Garmin built-in</string>
+    <string id="FontBionicBold">Bionic bold</string>
+    <string id="FontBionicRegular">Bionic regular</string>
+    <string id="FontSwiss">Swiss 721</string>
+    <string id="FontGarminHot">Garmin Hot digits</string>
+    <string id="FontGarminThaiHot">Garmin Thai digits</string>
+    <string id="LatTitle">Manual latitude (for sunrise/sunset, e.g. 50.45)</string>
+    <string id="LonTitle">Manual longitude (for sunrise/sunset, e.g. 30.52)</string>
 </strings>

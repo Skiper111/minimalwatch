@@ -10,6 +10,7 @@ import Toybox.Time;
 import Toybox.Time.Gregorian;
 import Toybox.WatchUi;
 import Toybox.Weather;
+import Toybox.Position;
 
 class MinimalFaceView extends WatchUi.WatchFace {
 
@@ -21,6 +22,7 @@ class MinimalFaceView extends WatchUi.WatchFace {
     // private const NEON = 0x2BD9FF;
     private const LIGHT_GRAY = 0xECF0F1;
     private var _gs as Float = 1.0;
+    private var _bb as Number or Null = null;   // last body battery known value
 ;
 
 
@@ -67,11 +69,12 @@ class MinimalFaceView extends WatchUi.WatchFace {
         drawSlots(dc, w, h);
 
         // row above the date (user-selectable)
-        drawRow(dc, [prop("Top1", 8), prop("Top2", 9), prop("Top3", 10)], rx, (h * 0.215).toNumber(),
-                (w * 0.026).toNumber(), (w * 0.032).toNumber(), (h * 0.05).toNumber());
+        // drawRow(dc, [prop("Top1", 8), prop("Top2", 9), prop("Top3", 10)], rx, (h * 0.215).toNumber(),
+        //         (w * 0.026).toNumber(), (w * 0.032).toNumber(), (h * 0.05).toNumber());
+        drawTopGrid(dc, rx, w, h);
         // row under the time (user-selectable)
         drawRow(dc, [prop("StatA", 2), prop("StatB", 1)], rx, (h * 0.645).toNumber(),
-                (w * 0.028).toNumber(), (w * 0.07).toNumber(), (h * 0.056).toNumber());
+                (w * 0.028).toNumber(), (w * 0.07).toNumber(), (h * 0.08).toNumber());
 
         drawBottom(dc, rx, w, h);
     }
@@ -88,10 +91,15 @@ class MinimalFaceView extends WatchUi.WatchFace {
         return def;
     }
 
-    // style: 0 = Garmin built-in, 1 = condensed bold, 2 = regular, 3 = condensed light
+    // style: 0 = Garmin built-in, 1 = Roboto condensed bold, 2 = Roboto regular, 3 = Roboto condensed light,
+    //        4 = Bionic bold, 5 = Bionic regular, 6 = Swiss 721. (8, 9 = numeric Garmin fonts, only for time, not text)
+    // I font doesnt exist take next one in the list.
     private function faces(style as Number) as Array {
         if (style == 2) { return ["RobotoRegular", "BionicRegular", "Swiss721Regular"]; }
         if (style == 3) { return ["RobotoCondensedRegular", "RobotoRegular", "BionicRegular"]; }
+        if (style == 4) { return ["BionicBold", "RobotoCondensedBold", "Swiss721Regular"]; }
+        if (style == 5) { return ["BionicRegular", "RobotoRegular", "Swiss721Regular"]; }
+        if (style == 6) { return ["Swiss721Regular", "RobotoRegular", "BionicRegular"]; }
         return ["RobotoCondensedBold", "BionicBold", "Swiss721Bold"];
     }
 
@@ -122,6 +130,16 @@ class MinimalFaceView extends WatchUi.WatchFace {
 
     private function timeFont(dc as Dc, txt as String, h as Number, maxW as Number) {
         var style = prop("TimeFont", 1);
+        if (style >= 8) {                                  // built-in numeric fonts Garmin
+            var first = (style == 8) ? Graphics.FONT_NUMBER_THAI_HOT : Graphics.FONT_NUMBER_HOT;
+            var nf = [first, Graphics.FONT_NUMBER_MEDIUM, Graphics.FONT_NUMBER_MILD];
+            for (var j = 0; j < 3; j++) {
+                if (dc.getTextWidthInPixels(txt, nf[j]) <= maxW) {
+                    return nf[j];
+                }
+            }
+            return nf[2];
+        }
         if (style != 0) {
             var f = pickFont(dc, txt, style, (h * 0.34).toNumber(), maxW, 24, null);
             if (f != null) {
@@ -145,7 +163,7 @@ class MinimalFaceView extends WatchUi.WatchFace {
     private function drawDate(dc as Dc, x as Number, y as Number, w as Number, h as Number) as Void {
         var info = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
         var txt = Lang.format("$1$ $2$ $3$", [info.day_of_week, info.day, info.month]).toUpper();
-        var f = textFont(dc, txt, (h * 0.05).toNumber(), (w * 0.5).toNumber());
+        var f = textFont(dc, txt, (h * 0.08).toNumber(), (w * 0.9).toNumber());
         dc.setColor(GRAY, Graphics.COLOR_TRANSPARENT);
         dc.drawText(x, y, f, txt, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
     }
@@ -160,7 +178,7 @@ class MinimalFaceView extends WatchUi.WatchFace {
             }
         }
         var txt = Lang.format("$1$:$2$", [hour.format("%02d"), clock.min.format("%02d")]);
-        var font = timeFont(dc, txt, h, (w * 0.67).toNumber());
+        var font = timeFont(dc, txt, h, (w * 0.6).toNumber());
         var just = Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER;
 
         if (_sleeping) {
@@ -243,7 +261,7 @@ class MinimalFaceView extends WatchUi.WatchFace {
         var tw = (pw * 0.4).toNumber();
         if (tw < 2) { tw = 2; }
         dc.setPenWidth(tw);
-        dc.setColor(dim(col, 0.30), Graphics.COLOR_TRANSPARENT);
+        dc.setColor(dim(col, 0.55), Graphics.COLOR_TRANSPARENT);
         dc.drawCircle(x, y, r);
         glowArc(dc, x, y, r, p, col, pw);
     }
@@ -259,7 +277,7 @@ class MinimalFaceView extends WatchUi.WatchFace {
     }
 
     private function drawBatteryRing(dc as Dc, w as Number, h as Number, pct as Float) as Void {
-        neonRing(dc, w / 2, h / 2, w / 2 - 6, pct / 100.0, batteryColor(pct), 4);
+        neonRing(dc, w / 2, h / 2, w / 2 - 6, pct / 100.0, batteryColor(pct), 5);
     }
 
     // =====================================================
@@ -272,7 +290,7 @@ class MinimalFaceView extends WatchUi.WatchFace {
         private function ringGeom(w as Number, h as Number, i as Number) as Array {
         var rc = w * 0.355;                 // radius of the arc the ring centres lie on
         var rOut = w * 0.1;
-        var rIn = w * 0.08;
+        var rIn = w * 0.1;
         var gap = w * 0.03;
         if (w <= 300) {                     // small screens (fenix 7 etc): 4 same rings
             rOut = w * 0.09;
@@ -301,8 +319,8 @@ class MinimalFaceView extends WatchUi.WatchFace {
     // Faint colour haze behind the rings: concentric, very dark tints of each ring colour
     // (no alpha on Garmin, so outer layers are drawn first for all rings, then inner ones).
     private function drawHaze(dc as Dc, w as Number, h as Number) as Void {
-        var mult = [2.5, 2.1, 1.7, 1.35, 0.9];
-        var fs = [0.025, 0.045, 0.07, 0.10, 0.14];
+        var mult = [1.8, 1.5, 1.3, 1.15, 0.9];
+        var fs = [0.065, 0.1, 0.13, 0.16, 0.19];
         var cols = [];
         for (var i = 0; i < 4; i++) {
             cols.add(getMetric(slotId(i))[2]);
@@ -329,7 +347,7 @@ class MinimalFaceView extends WatchUi.WatchFace {
         var prog = m[0] as Float;
         var txt = m[1] as String;
         var col = m[2] as Number;
-        var pw = (r * 0.17).toNumber();
+        var pw = (r * 0.22).toNumber();
         if (pw < 3) { pw = 3; }
 
         neonRing(dc, x, y, r, prog, col, pw);
@@ -338,10 +356,65 @@ class MinimalFaceView extends WatchUi.WatchFace {
         if (s < 3) { s = 3; }
         drawIcon(dc, (id == 11) ? 14 : id, x, y - (r * 0.33).toNumber(), s, col);
 
-        var f = textFont(dc, txt, (r * 0.56).toNumber(), (r * 1.3).toNumber());
+        var f = textFont(dc, txt, (r * 0.65).toNumber(), (r * 1.3).toNumber());
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         dc.drawText(x, y + (r * 0.31).toNumber(), f, txt,
             Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+    }
+
+    // One element (icon + text), centered on cx.
+    private function drawCell(dc as Dc, id as Number, cx as Number, y as Number, s as Number, size as Number) as Number {
+        if (id == 12) {
+            return 0;
+        }
+        var it = itemOf(id);
+        var txt = it[1];
+        var tf = null;
+        var wd = 2 * s;
+        if (txt != null) {
+            tf = textFont(dc, txt as String, size, s * 14);
+            wd += 6 + dc.getTextWidthInPixels(txt as String, tf);
+        }
+        var x = cx - wd / 2;
+        if ((it[3] as Number) >= 0) {
+            drawWeatherIcon(dc, it[3] as Number, x + s, y, s);
+        } else {
+            drawIcon(dc, it[0] as Number, x + s, y, s, it[2] as Number);
+        }
+        if (txt != null) {
+            dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+            dc.drawText(x + 2 * s + 6, y, tf, txt as String,
+                Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
+        }
+        return wd;
+    }
+
+    // 2 rows by 2 elements separated by thin lines.
+    private function drawTopGrid(dc as Dc, rx as Number, w as Number, h as Number) as Void {
+        var cx = rx + (w * 0.045).toNumber();   // shift all block: + right, - left
+        var s = (w * 0.026).toNumber();
+        var size = (h * 0.05).toNumber();
+        var y1 = (h * 0.17).toNumber();
+        var y2 = (h * 0.255).toNumber();
+        var dx = (w * 0.09).toNumber();
+        var tdx = (w * 0.05).toNumber();
+        var ym = (y1 + y2) / 2;
+
+        var w1 = drawCell(dc, prop("Top1", 8), cx - dx, y1, s, size);
+        var w2 = drawCell(dc, prop("Top2", 9), cx + tdx, y1, s, size);
+        var w3 = drawCell(dc, prop("Top3", 10), cx - dx, y2, s, size);
+        var w4 = drawCell(dc, prop("Top4", 13), cx + tdx, y2, s, size);         
+        
+        var wl = (w1 > w3) ? w1 : w3;          // widest left element
+        var wr = (w2 > w4) ? w2 : w4;          // widest right element
+        var xl = cx - dx - wl / 2;
+        var xr = cx + dx + wr / 2;
+
+        dc.setPenWidth(1);
+        dc.setColor(0x2E2E33, Graphics.COLOR_TRANSPARENT);
+        dc.drawLine(xl - s, ym, xr, ym);               // horizontal
+        dc.drawLine(cx, y1 - s, cx, y2 + s);          // vertical
+
     }
 
     // [progress 0..1, text, colour]
@@ -404,6 +477,12 @@ class MinimalFaceView extends WatchUi.WatchFace {
             var n = System.getDeviceSettings().notificationCount;
             var hasNotifications = (n != null && n > 0);
             return [10, hasNotifications ? n.toString() : null, hasNotifications ? 0xFFFFFF : OFF, -1];
+        }
+        if (id == 13) {                                  // alarm (count of active alarms)
+            var ds = System.getDeviceSettings();
+            var n = (ds has :alarmCount) ? ds.alarmCount : 0;
+            var on = (n != null && n > 0);
+            return [15, on ? n.toString() : null, on ? 0xFFB000 : OFF, -1];
         }
         if (id == 9) {
             return [11, null, System.getDeviceSettings().phoneConnected ? 0x2D9BFF : OFF, -1];
@@ -499,8 +578,8 @@ class MinimalFaceView extends WatchUi.WatchFace {
         if (kind == 4) {
             drawSunTimes(dc, rx, w, h);
         } else {
-            var wd = (w * 0.40).toNumber();
-            drawChart(dc, rx - wd / 2, (h * 0.70).toNumber(), wd, (h * 0.095).toNumber(), kind, h);
+            var wd = (w * 0.33).toNumber();
+            drawChart(dc, rx - wd / 2, (h * 0.73).toNumber(), wd, (h * 0.095).toNumber(), kind, h);
         }
     }
 
@@ -600,6 +679,54 @@ class MinimalFaceView extends WatchUi.WatchFace {
         dc.setPenWidth(1);
     }
 
+        private function validLatLon(lat as Numeric, lon as Numeric) as Boolean {
+        if (lat < -90 || lat > 90 || lon < -180 || lon > 180) {
+            return false;
+        }
+        return !(lat == 0 && lon == 0);
+    }
+
+    // sunrise/sunset coordinates: weather point -> last GPS fix (cached) -> manual settings -> cache.
+    private function getLocation() as Position.Location or Null {
+        var loc = null;
+        if ((Toybox has :Weather) && (Weather has :getCurrentConditions)) {
+            var c = Weather.getCurrentConditions();
+            if (c != null && (c has :observationLocationPosition)) {
+                loc = c.observationLocationPosition;
+            }
+        }
+        if (loc == null) {
+            var act = Activity.getActivityInfo();
+            if (act != null && act.currentLocation != null) {
+                loc = act.currentLocation;
+            }
+        }
+        if (loc != null) {
+            var d = loc.toDegrees();
+            if (validLatLon(d[0], d[1])) {
+                var sl = Application.Storage.getValue("lat");
+                var so = Application.Storage.getValue("lon");
+                if (sl == null || so == null
+                    || ((sl as Float) - d[0]).abs() > 0.01 || ((so as Float) - d[1]).abs() > 0.01) {
+                    Application.Storage.setValue("lat", d[0].toFloat());
+                    Application.Storage.setValue("lon", d[1].toFloat());
+                }
+                return loc;
+            }
+        }
+
+        var lat = Application.Properties.getValue("Lat");     // manual settings
+        var lon = Application.Properties.getValue("Lon");
+        if (lat == null || lon == null || !validLatLon(lat as Float, lon as Float)) {
+            lat = Application.Storage.getValue("lat");        // saved from last GPS fix
+            lon = Application.Storage.getValue("lon");
+        }
+        if (lat != null && lon != null && validLatLon(lat as Float, lon as Float)) {
+            return new Position.Location({:latitude => lat, :longitude => lon, :format => :degrees});
+        }
+        return null;
+    }
+
     private function fmtHM(hour as Number, min as Number) as String {
         if (!System.getDeviceSettings().is24Hour) {
             hour = hour % 12;
@@ -611,36 +738,33 @@ class MinimalFaceView extends WatchUi.WatchFace {
     }
 
     private function drawSunTimes(dc as Dc, rx as Number, w as Number, h as Number) as Void {
-        var y = (h * 0.76).toNumber();
-        var s = (w * 0.028).toNumber();
+        var y = (h * 0.8).toNumber();
+        var s = (w * 0.022).toNumber();
         var left = Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER;
         var sr = "--:--";
         var ss = "--:--";
 
-        if ((Toybox has :Weather) && (Weather has :getSunrise) && (Weather has :getCurrentConditions)) {
-            var c = Weather.getCurrentConditions();
-            if (c != null && (c has :observationLocationPosition) && c.observationLocationPosition != null) {
-                var loc = c.observationLocationPosition;
-                var now = Time.now();
-                var a = Weather.getSunrise(loc, now);
-                var b = Weather.getSunset(loc, now);
-                if (a != null) {
-                    var ia = Gregorian.info(a, Time.FORMAT_SHORT);
-                    sr = fmtHM(ia.hour, ia.min);
-                }
-                if (b != null) {
-                    var ib = Gregorian.info(b, Time.FORMAT_SHORT);
-                    ss = fmtHM(ib.hour, ib.min);
-                }
+        var loc = getLocation();
+        if (loc != null && (Toybox has :Weather) && (Weather has :getSunrise)) {
+            var now = Time.now();
+            var a = Weather.getSunrise(loc, now);
+            var b = Weather.getSunset(loc, now);
+            if (a != null) {
+                var ia = Gregorian.info(a, Time.FORMAT_SHORT);
+                sr = fmtHM(ia.hour, ia.min);
+            }
+            if (b != null) {
+                var ib = Gregorian.info(b, Time.FORMAT_SHORT);
+                ss = fmtHM(ib.hour, ib.min);
             }
         }
 
-        var size = (h * 0.056).toNumber();
+        var size = (h * 0.055).toNumber();
         var f1 = textFont(dc, sr, size, (w * 0.25).toNumber());
         var f2 = textFont(dc, ss, size, (w * 0.25).toNumber());
         var w1 = 2 * s + 6 + dc.getTextWidthInPixels(sr, f1);
-        var w2 = 2 * s + 6 + dc.getTextWidthInPixels(ss, f2);
-        var gap = (w * 0.06).toNumber();
+        var w2 = 1 * s + 6 + dc.getTextWidthInPixels(ss, f2);
+        var gap = (w * 0.03).toNumber();
         var x1 = rx - (w1 + gap + w2) / 2;
         var x2 = x1 + w1 + gap;
 
@@ -691,15 +815,34 @@ class MinimalFaceView extends WatchUi.WatchFace {
 
     private function getBodyBattery() as Number or Null {
         if ((Toybox has :SensorHistory) && (SensorHistory has :getBodyBatteryHistory)) {
-            var it = SensorHistory.getBodyBatteryHistory({:period => 1});
+            var it = SensorHistory.getBodyBatteryHistory({
+                :period => new Time.Duration(3600),
+                :order => SensorHistory.ORDER_NEWEST_FIRST
+            });
             if (it != null) {
-                var s = it.next();
-                if (s != null && s.data != null) {
-                    return s.data.toNumber();
+                var smp = it.next();
+                var n = 0;
+                while (smp != null && n < 30) {
+                    if (smp.data != null) {
+                        var v = smp.data.toNumber();
+                        if (v != _bb) {
+                            _bb = v;
+                            Application.Storage.setValue("bb", v);
+                        }
+                        return _bb;
+                    }
+                    smp = it.next();
+                    n++;
                 }
             }
         }
-        return null;
+        if (_bb == null) {                                // storage is empty: take last saved value
+            var saved = Application.Storage.getValue("bb");
+            if (saved instanceof Number) {
+                _bb = saved as Number;
+            }
+        }
+        return _bb;
     }
 
     private function getTemperature() as Number or Null {
@@ -854,6 +997,12 @@ class MinimalFaceView extends WatchUi.WatchFace {
             dc.drawRectangle(u(x, -9, k), u(y, -5, k), sz(16, k), sz(10, k));
             dc.fillRectangle(u(x, 7.5, k), u(y, -2, k), sz(2.5, k), sz(4, k));
             dc.fillRectangle(u(x, -7, k), u(y, -3, k), sz(10, k), sz(6, k));
+        } else if (id == 15) {                           // будильник
+            dc.drawCircle(x, u(y, 1.5, k), sz(7, k));
+            ln(dc, x, y, k, 0, 1.5, 0, -2.5);
+            ln(dc, x, y, k, 0, 1.5, 3, 3);
+            dc.fillCircle(u(x, -6.5, k), u(y, -6, k), sz(2.4, k));
+            dc.fillCircle(u(x, 6.5, k), u(y, -6, k), sz(2.4, k));
         }
         dc.setPenWidth(1);
     }
