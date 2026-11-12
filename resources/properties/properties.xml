@@ -10,10 +10,13 @@
         <property id="Top4" type="number">13</property>
         <property id="StatA" type="number">2</property>
         <property id="StatB" type="number">1</property>
-        <property id="Chart" type="number">1</property>
+        <property id="Chart" type="number">4</property>
         <property id="BgGlow" type="boolean">true</property>
         <property id="TimeFont" type="number">1</property>
-        <property id="TextFont" type="number">1</property>
+        <property id="DateFont" type="number">1</property>
+        <property id="RingFont" type="number">1</property>
+        <property id="ItemFont" type="number">1</property>
+        <property id="SunFont" type="number">1</property>
         <property id="Lat" type="float">50.45</property>
         <property id="Lon" type="float">30.52</property>
     </properties>

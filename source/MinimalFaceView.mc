@@ -124,8 +124,9 @@ class MinimalFaceView extends WatchUi.WatchFace {
         return (f != null) ? f : fallback;
     }
 
-    private function textFont(dc as Dc, txt as String, size as Number, maxW as Number) {
-        return pickFont(dc, txt, prop("TextFont", 1), size, maxW, 8, Graphics.FONT_XTINY);
+    // key = name of the font property (DateFont, RingFont, ItemFont, SunFont)
+    private function textFont(dc as Dc, txt as String, size as Number, maxW as Number, key as String) {
+        return pickFont(dc, txt, prop(key, 1), size, maxW, 8, Graphics.FONT_XTINY);
     }
 
     private function timeFont(dc as Dc, txt as String, h as Number, maxW as Number) {
@@ -163,8 +164,8 @@ class MinimalFaceView extends WatchUi.WatchFace {
     private function drawDate(dc as Dc, x as Number, y as Number, w as Number, h as Number) as Void {
         var info = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
         var txt = Lang.format("$1$ $2$ $3$", [info.day_of_week, info.day, info.month]).toUpper();
-        var f = textFont(dc, txt, (h * 0.08).toNumber(), (w * 0.9).toNumber());
-        dc.setColor(GRAY, Graphics.COLOR_TRANSPARENT);
+        var f = textFont(dc, txt, (h * 0.08).toNumber(), (w * 0.9).toNumber(), "DateFont");
+        dc.setColor(LIGHT_GRAY, Graphics.COLOR_TRANSPARENT);
         dc.drawText(x, y, f, txt, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
     }
 
@@ -356,23 +357,38 @@ class MinimalFaceView extends WatchUi.WatchFace {
         if (s < 3) { s = 3; }
         drawIcon(dc, (id == 11) ? 14 : id, x, y - (r * 0.33).toNumber(), s, col);
 
-        var f = textFont(dc, txt, (r * 0.65).toNumber(), (r * 1.3).toNumber());
+        var f = textFont(dc, txt, (r * 0.65).toNumber(), (r * 1.3).toNumber(), "RingFont");
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         dc.drawText(x, y + (r * 0.31).toNumber(), f, txt,
             Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
     }
 
-    // One element (icon + text), centered on cx.
-    private function drawCell(dc as Dc, id as Number, cx as Number, y as Number, s as Number, size as Number) as Number {
+    // Width of the element (icon + text) in px, 0 if empty.
+    private function cellWidth(dc as Dc, id as Number, s as Number, size as Number) as Number {
         if (id == 12) {
             return 0;
+        }
+        var it = itemOf(id);
+        var txt = it[1];
+        var wd = 2 * s;
+        if (txt != null) {
+            var tf = textFont(dc, txt as String, size, s * 14, "ItemFont");
+            wd += 6 + dc.getTextWidthInPixels(txt as String, tf);
+        }
+        return wd;
+    }
+
+    // One element (icon + text), centered on cx.
+    private function drawCell(dc as Dc, id as Number, cx as Number, y as Number, s as Number, size as Number) as Void {
+        if (id == 12) {
+            return;
         }
         var it = itemOf(id);
         var txt = it[1];
         var tf = null;
         var wd = 2 * s;
         if (txt != null) {
-            tf = textFont(dc, txt as String, size, s * 14);
+            tf = textFont(dc, txt as String, size, s * 14, "ItemFont");
             wd += 6 + dc.getTextWidthInPixels(txt as String, tf);
         }
         var x = cx - wd / 2;
@@ -386,35 +402,40 @@ class MinimalFaceView extends WatchUi.WatchFace {
             dc.drawText(x + 2 * s + 6, y, tf, txt as String,
                 Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
         }
-        return wd;
     }
 
     // 2 rows by 2 elements separated by thin lines.
+    // each element centred in its quarter of the block, with a small gap between icon and text.
     private function drawTopGrid(dc as Dc, rx as Number, w as Number, h as Number) as Void {
-        var cx = rx + (w * 0.045).toNumber();   // shift all block: + right, - left
-        var s = (w * 0.026).toNumber();
+        var cx = rx + (w * 0.01).toNumber();   // horizontal shift of the block: + right, - left
+        var dy = (h * -0.022).toNumber();            // vertical shift of the block: + down, - up
+        var s = (w * 0.030).toNumber();
         var size = (h * 0.05).toNumber();
-        var y1 = (h * 0.17).toNumber();
-        var y2 = (h * 0.255).toNumber();
-        var dx = (w * 0.09).toNumber();
-        var tdx = (w * 0.05).toNumber();
+        var y1 = (h * 0.165).toNumber() + dy;
+        var y2 = (h * 0.26).toNumber() + dy;
         var ym = (y1 + y2) / 2;
+        var ids = [prop("Top1", 8), prop("Top2", 9), prop("Top3", 10), prop("Top4", 13)];
 
-        var w1 = drawCell(dc, prop("Top1", 8), cx - dx, y1, s, size);
-        var w2 = drawCell(dc, prop("Top2", 9), cx + tdx, y1, s, size);
-        var w3 = drawCell(dc, prop("Top3", 10), cx - dx, y2, s, size);
-        var w4 = drawCell(dc, prop("Top4", 13), cx + tdx, y2, s, size);         
-        
-        var wl = (w1 > w3) ? w1 : w3;          // widest left element
-        var wr = (w2 > w4) ? w2 : w4;          // widest right element
-        var xl = cx - dx - wl / 2;
-        var xr = cx + dx + wr / 2;
+        var cw = 2 * s;
+        for (var i = 0; i < 4; i++) {
+            var wi = cellWidth(dc, ids[i], s, size);
+            if (wi > cw) {
+                cw = wi;
+            }
+        }
+        var q = cw + (w * 0.03).toNumber();    // width of a quarter
+        var xl = cx - q / 2;                   // center of the left quarter
+        var xr = cx + q / 2;                   // center of the right quarter
 
-        dc.setPenWidth(1);
-        dc.setColor(0x2E2E33, Graphics.COLOR_TRANSPARENT);
-        dc.drawLine(xl - s, ym, xr, ym);               // horizontal
-        dc.drawLine(cx, y1 - s, cx, y2 + s);          // vertical
+        dc.setPenWidth(2);
+        dc.setColor(GRAY, Graphics.COLOR_TRANSPARENT);
+        dc.drawLine(cx - q / 2, ym, cx + q / 2, ym);           // horizontal: evenly distributed across two quarters
+        dc.drawLine(cx, y1 - s, cx, y2 + s);           // vertical
 
+        drawCell(dc, ids[0], xl, y1, s, size);
+        drawCell(dc, ids[1], xr, y1, s, size);
+        drawCell(dc, ids[2], xl, y2, s, size);
+        drawCell(dc, ids[3], xr, y2, s, size);
     }
 
     // [progress 0..1, text, colour]
@@ -524,7 +545,7 @@ class MinimalFaceView extends WatchUi.WatchFace {
             var tf = null;
             var wd = 2 * s;
             if (txt != null) {
-                tf = textFont(dc, txt as String, size, s * 14);
+                tf = textFont(dc, txt as String, size, s * 14, "ItemFont");
                 wd += 6 + dc.getTextWidthInPixels(txt as String, tf);
             }
             items.add([it, tf]);
@@ -627,7 +648,7 @@ class MinimalFaceView extends WatchUi.WatchFace {
         dc.drawLine(x0, y0 + ht + 5, x0 + wd, y0 + ht + 5);
 
         if (n < 2) {
-            var f = textFont(dc, "--", (h * 0.05).toNumber(), wd);
+            var f = textFont(dc, "--", (h * 0.05).toNumber(), wd, "ItemFont");
             dc.setColor(GRAY, Graphics.COLOR_TRANSPARENT);
             dc.drawText(x0 + wd / 2, y0 + ht / 2, f, "--",
                 Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
@@ -738,8 +759,7 @@ class MinimalFaceView extends WatchUi.WatchFace {
     }
 
     private function drawSunTimes(dc as Dc, rx as Number, w as Number, h as Number) as Void {
-        var y = (h * 0.8).toNumber();
-        var s = (w * 0.022).toNumber();
+        var s = (w * 0.034).toNumber();
         var left = Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER;
         var sr = "--:--";
         var ss = "--:--";
@@ -759,22 +779,25 @@ class MinimalFaceView extends WatchUi.WatchFace {
             }
         }
 
-        var size = (h * 0.055).toNumber();
-        var f1 = textFont(dc, sr, size, (w * 0.25).toNumber());
-        var f2 = textFont(dc, ss, size, (w * 0.25).toNumber());
-        var w1 = 2 * s + 6 + dc.getTextWidthInPixels(sr, f1);
-        var w2 = 1 * s + 6 + dc.getTextWidthInPixels(ss, f2);
-        var gap = (w * 0.03).toNumber();
-        var x1 = rx - (w1 + gap + w2) / 2;
-        var x2 = x1 + w1 + gap;
+        var size = (h * 0.056).toNumber();
+        var maxW = (w * 0.3).toNumber();
+        var f1 = textFont(dc, sr, size, maxW, "SunFont");
+        var f2 = textFont(dc, ss, size, maxW, "SunFont");
+        var t1 = dc.getTextWidthInPixels(sr, f1);
+        var t2 = dc.getTextWidthInPixels(ss, f2);
+        var tw = (t1 > t2) ? t1 : t2;
+        var x = (rx - (2 * s + 8 + tw) / 1.5).toNumber();;        // general left edge of the two elements (icon + text) together
+        var dy = (h * -0.04).toNumber();            // vertical shift of the block: + down, - up
+        var y1 = (h * 0.725).toNumber() - dy;
+        var y2 = (h * 0.815).toNumber() - dy;
 
-        drawIcon(dc, 12, x1 + s, y, s, 0xFFB000);
+        drawIcon(dc, 12, x + s, y1, s, 0xFFB000);
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(x1 + 2 * s + 6, y, f1, sr, left);
+        dc.drawText(x + 2 * s + 8, y1, f1, sr, left);
 
-        drawIcon(dc, 13, x2 + s, y, s, 0xFF6A3D);
+        drawIcon(dc, 13, x + s, y2, s, 0xFF6A3D);
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(x2 + 2 * s + 6, y, f2, ss, left);
+        dc.drawText(x + 2 * s + 8, y2, f2, ss, left);
     }
 
     // =====================================================
@@ -860,7 +883,7 @@ class MinimalFaceView extends WatchUi.WatchFace {
     // =====================================================
 
     private function u(c as Number, v as Numeric, k as Float) as Number {
-        return (c + v * k).toNumber();
+        return Math.round(c + v * k).toNumber();
     }
 
     private function sz(v as Numeric, k as Float) as Number {
@@ -923,8 +946,8 @@ class MinimalFaceView extends WatchUi.WatchFace {
     //      10 envelope, 11 bluetooth, 12 sunrise, 13 sunset, 14 battery
     private function drawIcon(dc as Dc, id as Number, x as Number, y as Number, s as Number, col as Number) as Void {
         var k = s / 10.0;
-        var pw = (k * 1.5).toNumber();
-        if (pw < 1) { pw = 1; }
+        var pw = (k * 2.3).toNumber();
+        if (pw < 2) { pw = 2; }
         dc.setColor(col, Graphics.COLOR_TRANSPARENT);
         dc.setPenWidth(pw);
 
@@ -973,9 +996,12 @@ class MinimalFaceView extends WatchUi.WatchFace {
             dc.fillRoundedRectangle(u(x, -2, k), u(y, -9, k), sz(4, k), sz(13, k), sz(2, k));
             dc.fillCircle(x, u(y, 6, k), sz(4.5, k));
         } else if (id == 10) {                           // envelope
-            dc.drawRectangle(u(x, -8, k), u(y, -5, k), sz(16, k), sz(11, k));
-            ln(dc, x, y, k, -8, -5, 0, 2);
-            ln(dc, x, y, k, 0, 2, 8, -5);
+            ln(dc, x, y, k, -8, -5, 8, -5);
+            ln(dc, x, y, k, 8, -5, 8, 6);
+            ln(dc, x, y, k, 8, 6, -8, 6);              
+            ln(dc, x, y, k, -8, 6, -8, -5);
+            ln(dc, x, y, k, -8, -5, 0, 1.5);
+            ln(dc, x, y, k, 0, 1.5, 8, -5);
         } else if (id == 11) {                           // bluetooth
             ln(dc, x, y, k, -3.5, -6.5, 3.5, 3);
             ln(dc, x, y, k, 4.5, 3, 0, 8);
@@ -997,7 +1023,7 @@ class MinimalFaceView extends WatchUi.WatchFace {
             dc.drawRectangle(u(x, -9, k), u(y, -5, k), sz(16, k), sz(10, k));
             dc.fillRectangle(u(x, 7.5, k), u(y, -2, k), sz(2.5, k), sz(4, k));
             dc.fillRectangle(u(x, -7, k), u(y, -3, k), sz(10, k), sz(6, k));
-        } else if (id == 15) {                           // будильник
+        } else if (id == 15) {                           // alarm
             dc.drawCircle(x, u(y, 1.5, k), sz(7, k));
             ln(dc, x, y, k, 0, 1.5, 0, -2.5);
             ln(dc, x, y, k, 0, 1.5, 3, 3);
@@ -1012,7 +1038,7 @@ class MinimalFaceView extends WatchUi.WatchFace {
     private function sunShape(dc as Dc, x as Number, y as Number, k as Float) as Void {
         var d = [[1.0, 0.0], [0.7, 0.7], [0.0, 1.0], [-0.7, 0.7], [-1.0, 0.0], [-0.7, -0.7], [0.0, -1.0], [0.7, -0.7]];
         dc.setColor(0xFFD60A, Graphics.COLOR_TRANSPARENT);
-        dc.setPenWidth(sz(1.4, k));
+        dc.setPenWidth(sz(2.2, k));
         dc.fillCircle(x, y, sz(4, k));
         for (var i = 0; i < 8; i++) {
             dc.drawLine(u(x, d[i][0] * 6.5, k), u(y, d[i][1] * 6.5, k),
@@ -1031,7 +1057,7 @@ class MinimalFaceView extends WatchUi.WatchFace {
     private function drawWeatherIcon(dc as Dc, kind as Number, x as Number, y as Number, s as Number) as Void {
         var k = s / 10.0;
         var cloud = 0xB8C4D6;
-        dc.setPenWidth(sz(1.5, k));
+        dc.setPenWidth(sz(2.2, k));
 
         if (kind == 0) {
             sunShape(dc, x, y, k);

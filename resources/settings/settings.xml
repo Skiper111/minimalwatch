@@ -192,11 +192,47 @@
                 <listEntry value="9">@Strings.FontGarminHot</listEntry>
             </settingConfig>
         </setting>
-        <setting propertyKey="@Properties.TextFont" title="@Strings.TextFontTitle">
+        <setting propertyKey="@Properties.DateFont" title="@Strings.DateFontTitle">
             <settingConfig type="list">
                 <listEntry value="1">@Strings.FontCondBold</listEntry>
                 <listEntry value="2">@Strings.FontRegular</listEntry>
                 <listEntry value="3">@Strings.FontCondLight</listEntry>
+                <listEntry value="4">@Strings.FontBionicBold</listEntry>
+                <listEntry value="5">@Strings.FontBionicRegular</listEntry>
+                <listEntry value="6">@Strings.FontSwiss</listEntry>
+                <listEntry value="0">@Strings.FontBuiltin</listEntry>
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.RingFont" title="@Strings.RingFontTitle">
+            <settingConfig type="list">
+                <listEntry value="1">@Strings.FontCondBold</listEntry>
+                <listEntry value="2">@Strings.FontRegular</listEntry>
+                <listEntry value="3">@Strings.FontCondLight</listEntry>
+                <listEntry value="4">@Strings.FontBionicBold</listEntry>
+                <listEntry value="5">@Strings.FontBionicRegular</listEntry>
+                <listEntry value="6">@Strings.FontSwiss</listEntry>
+                <listEntry value="0">@Strings.FontBuiltin</listEntry>
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.ItemFont" title="@Strings.ItemFontTitle">
+            <settingConfig type="list">
+                <listEntry value="1">@Strings.FontCondBold</listEntry>
+                <listEntry value="2">@Strings.FontRegular</listEntry>
+                <listEntry value="3">@Strings.FontCondLight</listEntry>
+                <listEntry value="4">@Strings.FontBionicBold</listEntry>
+                <listEntry value="5">@Strings.FontBionicRegular</listEntry>
+                <listEntry value="6">@Strings.FontSwiss</listEntry>
+                <listEntry value="0">@Strings.FontBuiltin</listEntry>
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.SunFont" title="@Strings.SunFontTitle">
+            <settingConfig type="list">
+                <listEntry value="1">@Strings.FontCondBold</listEntry>
+                <listEntry value="2">@Strings.FontRegular</listEntry>
+                <listEntry value="3">@Strings.FontCondLight</listEntry>
+                <listEntry value="4">@Strings.FontBionicBold</listEntry>
+                <listEntry value="5">@Strings.FontBionicRegular</listEntry>
+                <listEntry value="6">@Strings.FontSwiss</listEntry>
                 <listEntry value="0">@Strings.FontBuiltin</listEntry>
             </settingConfig>
         </setting>

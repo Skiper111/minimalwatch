@@ -44,6 +44,10 @@
     <string id="FontSwiss">Swiss 721</string>
     <string id="FontGarminHot">Garmin Hot digits</string>
     <string id="FontGarminThaiHot">Garmin Thai digits</string>
+    <string id="DateFontTitle">Font: date</string>
+    <string id="RingFontTitle">Font: numbers in rings</string>
+    <string id="ItemFontTitle">Font: top grid and row under the time</string>
+    <string id="SunFontTitle">Font: sunrise / sunset</string>
     <string id="LatTitle">Manual latitude (for sunrise/sunset, e.g. 50.45)</string>
     <string id="LonTitle">Manual longitude (for sunrise/sunset, e.g. 30.52)</string>
 </strings>
